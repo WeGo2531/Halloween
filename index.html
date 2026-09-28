@@ -1,0 +1,3092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Karla:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap">
+<title>Fall &amp; Halloween Guide 2026</title>
+<style>
+
+  :root{
+    --night:#1c1030;
+    --night-deep:#120a22;
+    --paper:#fff6e8;
+    --paper-dim:#fdecd2;
+    --pumpkin:#f37021;
+    --pumpkin-bright:#ff8c3a;
+    --pumpkin-deep:#c1440e;
+    --gold:#f5b942;
+    --purple:#7b4fa3;
+    --purple-glow:#a06fd6;
+    --leaf:#4c7a4f;
+    --ink:#2b1e15;
+    --line: rgba(43,30,21,0.14);
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  :root{ padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); }
+  html{ scroll-padding-top:env(safe-area-inset-top,0px); background:#120a22; }
+
+  body{
+    background:
+      radial-gradient(ellipse 700px 400px at 12% -5%, rgba(247,163,45,0.22), transparent 60%),
+      radial-gradient(ellipse 600px 500px at 100% 10%, rgba(160,111,214,0.25), transparent 55%),
+      radial-gradient(ellipse 800px 600px at 50% 100%, rgba(123,79,163,0.18), transparent 60%),
+      linear-gradient(180deg, var(--night-deep) 0%, var(--night) 45%, #24163c 100%);
+    background-attachment:fixed;
+    color:var(--ink);
+    font-family:'Karla', sans-serif;
+    line-height:1.5;
+    min-height:100vh;
+    position:relative;
+    overflow-x:hidden;
+  }
+
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    background-image:
+      radial-gradient(1.5px 1.5px at 20% 15%, rgba(255,255,255,0.55), transparent),
+      radial-gradient(1.5px 1.5px at 75% 8%, rgba(255,255,255,0.4), transparent),
+      radial-gradient(1px 1px at 45% 22%, rgba(255,255,255,0.5), transparent),
+      radial-gradient(1.5px 1.5px at 88% 30%, rgba(255,255,255,0.35), transparent),
+      radial-gradient(1px 1px at 10% 45%, rgba(255,255,255,0.4), transparent),
+      radial-gradient(1.5px 1.5px at 60% 5%, rgba(255,255,255,0.5), transparent),
+      radial-gradient(1px 1px at 30% 35%, rgba(255,255,255,0.3), transparent);
+    background-size:100% 700px;
+    background-repeat:repeat-y;
+    opacity:0.9;
+    z-index:0;
+  }
+
+  .moon{
+    position:fixed;
+    top:36px;
+    right:6%;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background:radial-gradient(circle at 35% 32%, #fff8e6 0%, var(--gold) 55%, #e0a52f 100%);
+    box-shadow:0 0 70px 18px rgba(245,185,66,0.35), 0 0 140px 40px rgba(245,185,66,0.15);
+    opacity:0.9;
+    z-index:0;
+    animation:drift 12s ease-in-out infinite;
+  }
+
+  @keyframes drift{
+    0%,100%{ transform:translateY(0px); }
+    50%{ transform:translateY(-10px); }
+  }
+
+  .bat{
+    position:fixed;
+    font-size:22px;
+    opacity:0.55;
+    z-index:0;
+    animation:fly 9s ease-in-out infinite;
+    filter:drop-shadow(0 0 6px rgba(0,0,0,0.4));
+  }
+  .bat1{ top:18%; left:8%; animation-delay:0s; }
+  .bat2{ top:12%; left:70%; animation-delay:2.5s; font-size:16px; }
+  .bat3{ top:30%; left:50%; animation-delay:5s; font-size:14px; opacity:0.4; }
+
+  @keyframes fly{
+    0%,100%{ transform:translate(0,0) rotate(0deg); }
+    25%{ transform:translate(30px,-14px) rotate(-6deg); }
+    50%{ transform:translate(55px,4px) rotate(3deg); }
+    75%{ transform:translate(20px,16px) rotate(-3deg); }
+  }
+
+  @media (max-width:600px){
+    .moon{ width:70px; height:70px; top:18px; right:5%; }
+    .bat{ display:none; }
+  }
+
+  .wrap{
+    max-width:780px;
+    margin:0 auto;
+    padding:48px 20px 90px;
+    position:relative;
+    z-index:1;
+  }
+
+  header{
+    text-align:left;
+    padding:8px 0 30px;
+    position:relative;
+  }
+
+  .kicker{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    font-size:13px;
+    color:var(--gold);
+    font-weight:700;
+    margin-bottom:14px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    background:rgba(245,185,66,0.12);
+    border:1px solid rgba(245,185,66,0.35);
+    padding:6px 14px;
+    border-radius:100px;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    font-size:clamp(40px, 8vw, 62px);
+    line-height:1.02;
+    margin:0 0 14px;
+    letter-spacing:-0.015em;
+    color:var(--paper);
+    text-shadow:0 2px 24px rgba(0,0,0,0.35);
+  }
+
+  h1 em{
+    font-style:italic;
+    font-weight:700;
+    background:linear-gradient(100deg, var(--pumpkin-bright), var(--gold) 60%, var(--pumpkin-bright));
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+
+  .sub{
+    font-size:16.5px;
+    max-width:54ch;
+    color:rgba(255,246,232,0.78);
+  }
+
+  .card-shell{
+    background:var(--paper);
+    border-radius:22px;
+    padding:30px 28px 40px;
+    box-shadow:0 30px 60px -20px rgba(0,0,0,0.55), 0 2px 0 rgba(255,255,255,0.5) inset;
+    position:relative;
+  }
+
+  .card-shell::before{
+    content:"🎃";
+    position:absolute;
+    top:-22px;
+    left:28px;
+    font-size:34px;
+    filter:drop-shadow(0 6px 8px rgba(0,0,0,0.35));
+  }
+
+  .card-shell::after{
+    content:"👻";
+    position:absolute;
+    top:-20px;
+    right:28px;
+    font-size:28px;
+    filter:drop-shadow(0 6px 8px rgba(0,0,0,0.3));
+  }
+
+  .tabnav{
+    display:flex;
+    gap:8px;
+    margin:6px 0 26px;
+    flex-wrap:wrap;
+    padding-bottom:16px;
+    border-bottom:2px dashed rgba(43,30,21,0.18);
+  }
+
+  .tabbtn{
+    font-family:'Fraunces', serif;
+    font-size:14.5px;
+    font-weight:600;
+    background:rgba(92,110,62,0.06);
+    border:1.5px solid transparent;
+    cursor:pointer;
+    padding:9px 16px;
+    color:rgba(43,30,21,0.55);
+    border-radius:100px;
+    transition:all 0.18s ease;
+    white-space:nowrap;
+  }
+
+  .tabbtn:hover{
+    background:rgba(243,112,33,0.1);
+    color:var(--pumpkin-deep);
+  }
+
+  .tabbtn.active{
+    color:#fff;
+    background:linear-gradient(135deg, var(--pumpkin) 0%, var(--pumpkin-deep) 100%);
+    border-color:var(--pumpkin-deep);
+    box-shadow:0 4px 14px -4px rgba(193,68,14,0.6);
+  }
+
+  .tabpanel{ display:none; }
+  .tabpanel.active{ display:block; animation:fadein 0.35s ease; }
+
+  @keyframes fadein{
+    from{ opacity:0; transform:translateY(6px); }
+    to{ opacity:1; transform:translateY(0); }
+  }
+
+  .region-note{
+    font-size:14.5px;
+    color:rgba(43,30,21,0.75);
+    max-width:58ch;
+    margin:20px 0 0;
+    padding:14px 16px;
+    background:rgba(123,79,163,0.07);
+    border-left:3px solid var(--purple);
+    border-radius:6px;
+  }
+
+  .month-label{
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    font-size:21px;
+    margin:38px 0 16px;
+    color:var(--pumpkin-deep);
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+
+  .month-label::after{
+    content:"";
+    flex:1;
+    height:2px;
+    background:repeating-linear-gradient(90deg, var(--pumpkin) 0 6px, transparent 6px 12px);
+    opacity:0.4;
+  }
+
+  .month-label:first-of-type{ margin-top:22px; }
+
+  .event{
+    display:grid;
+    grid-template-columns:96px 1fr;
+    gap:18px;
+    padding:18px 16px;
+    margin:0 -16px 10px;
+    border-radius:14px;
+    transition:background 0.15s ease, transform 0.15s ease;
+    border:1px solid transparent;
+  }
+
+  .event:hover{
+    background:rgba(243,112,33,0.055);
+    border-color:rgba(243,112,33,0.18);
+    transform:translateX(2px);
+  }
+
+  .date-block{
+    text-align:center;
+    background:linear-gradient(160deg, var(--pumpkin) 0%, var(--pumpkin-deep) 100%);
+    color:#fff8ec;
+    border-radius:12px;
+    padding:10px 6px 11px;
+    height:fit-content;
+    box-shadow:0 6px 14px -6px rgba(193,68,14,0.55);
+  }
+
+  .date-block .dow{
+    font-size:10.5px;
+    text-transform:uppercase;
+    letter-spacing:0.09em;
+    opacity:0.85;
+    margin-bottom:2px;
+    font-weight:700;
+  }
+
+  .date-block .num{
+    font-family:'Fraunces', serif;
+    font-size:25px;
+    font-weight:700;
+    line-height:1;
+  }
+
+  .date-block .mon{
+    font-size:10.5px;
+    text-transform:uppercase;
+    letter-spacing:0.09em;
+    opacity:0.85;
+    margin-top:2px;
+    font-weight:700;
+  }
+
+  .event h3{
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    font-size:20.5px;
+    margin:0 0 6px;
+    line-height:1.2;
+    color:var(--ink);
+  }
+
+  .meta{
+    font-size:14.5px;
+    color:rgba(43,30,21,0.68);
+    margin:0 0 4px;
+  }
+
+  .meta .time{
+    color:var(--pumpkin-deep);
+    font-weight:700;
+  }
+
+  .desc{
+    font-size:14.5px;
+    color:rgba(43,30,21,0.85);
+    margin-top:8px;
+  }
+
+  .tags{
+    margin-top:11px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+  }
+
+  .tag{
+    font-size:11.5px;
+    font-weight:600;
+    padding:4px 11px;
+    border:1px solid rgba(76,122,79,0.3);
+    border-radius:100px;
+    color:var(--leaf);
+    background:rgba(76,122,79,0.08);
+  }
+
+  .event.favorite{
+    background:linear-gradient(135deg, rgba(243,112,33,0.1), rgba(245,185,66,0.12));
+    border:1.5px solid rgba(243,112,33,0.35);
+    box-shadow:0 8px 20px -10px rgba(193,68,14,0.35);
+  }
+
+  .favorite-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    font-family:'Caveat', cursive;
+    font-size:16px;
+    font-weight:700;
+    color:#fff;
+    background:linear-gradient(135deg, var(--pumpkin) 0%, var(--gold) 100%);
+    border-radius:100px;
+    padding:3px 13px 4px 10px;
+    margin-bottom:8px;
+    transform:rotate(-2deg);
+    box-shadow:0 4px 10px -3px rgba(193,68,14,0.5);
+  }
+
+  .note{
+    font-size:13px;
+    color:var(--pumpkin-deep);
+    margin-top:9px;
+    font-style:italic;
+    background:rgba(243,112,33,0.07);
+    padding:8px 12px;
+    border-radius:8px;
+    border-left:2px solid var(--pumpkin);
+  }
+
+  .source{
+    font-size:12px;
+    margin-top:10px;
+    color:rgba(43,30,21,0.5);
+  }
+
+  .source a{
+    color:rgba(43,30,21,0.55);
+    text-decoration:none;
+    border-bottom:1px dotted rgba(43,30,21,0.35);
+  }
+
+  .source a:hover{
+    color:var(--pumpkin-deep);
+  }
+
+  .callout{
+    background:linear-gradient(135deg, rgba(123,79,163,0.1), rgba(243,112,33,0.08));
+    border:1.5px dashed var(--purple);
+    padding:16px 20px;
+    font-size:14px;
+    color:rgba(43,30,21,0.88);
+    margin:20px 0 30px;
+    border-radius:12px;
+  }
+
+  .callout strong{ color:var(--purple); }
+
+  .search{
+    width:100%;
+    font-family:'Karla', sans-serif;
+    font-size:16px;
+    padding:13px 18px;
+    border:2px solid var(--ink);
+    border-radius:100px;
+    background:#fffaf0;
+    color:var(--ink);
+    margin-bottom:26px;
+  }
+
+  .search:focus{
+    outline:none;
+    border-color:var(--pumpkin);
+    box-shadow:0 0 0 4px rgba(243,112,33,0.15);
+  }
+
+  .town-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    border-top:1px solid var(--line);
+  }
+
+  .town{
+    display:grid;
+    grid-template-columns:1fr auto;
+    align-items:baseline;
+    gap:12px;
+    padding:13px 4px;
+    border-bottom:1px solid var(--line);
+    border-radius:8px;
+    transition:background 0.15s ease;
+  }
+
+  .town:hover{ background:rgba(243,112,33,0.05); }
+
+  .town-name{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:16.5px;
+  }
+
+  .town-hours{
+    font-size:14px;
+    font-weight:700;
+    color:rgba(43,30,21,0.65);
+    white-space:nowrap;
+    background:rgba(43,30,21,0.07);
+    padding:3px 11px;
+    border-radius:100px;
+    border:1px dashed rgba(43,30,21,0.25);
+  }
+
+  .yr-tag{
+    font-size:10px;
+    font-weight:700;
+    color:var(--purple);
+    background:rgba(123,79,163,0.12);
+    padding:1px 6px;
+    border-radius:100px;
+    margin-left:4px;
+    vertical-align:middle;
+  }
+
+  .town-hours.confirmed{
+    background:linear-gradient(135deg, var(--leaf), #3a5f3d);
+    color:#fff;
+    border:1px solid #3a5f3d;
+  }
+
+  .yr-tag.confirmed-tag{
+    color:#fff;
+    background:rgba(255,255,255,0.25);
+  }
+
+  .town-note{
+    grid-column:1 / -1;
+    font-size:13px;
+    color:rgba(43,30,21,0.68);
+    margin-top:2px;
+  }
+
+  .town.hidden{ display:none; }
+
+  footer{
+    margin-top:44px;
+    padding-top:20px;
+    border-top:2px dashed rgba(43,30,21,0.18);
+    font-size:13px;
+    color:rgba(43,30,21,0.55);
+  }
+
+  footer a{ color:rgba(43,30,21,0.65); }
+
+  .footer-flourish{
+    text-align:center;
+    font-size:20px;
+    letter-spacing:14px;
+    margin:34px 0 -6px;
+    opacity:0.5;
+  }
+
+  @media (max-width:480px){
+    .card-shell{ padding:26px 18px 34px; border-radius:18px; }
+    .event{grid-template-columns:66px 1fr; gap:12px; padding:14px 8px; margin:0 -8px 8px;}
+    .date-block .num{font-size:21px;}
+    .tabbtn{font-size:12.5px; padding:8px 12px;}
+    .card-shell::before, .card-shell::after{ font-size:24px; top:-16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="moon"></div>
+<div class="bat bat1">🦇</div>
+<div class="bat bat2">🦇</div>
+<div class="bat bat3">🦇</div>
+
+<div class="wrap">
+
+  <header>
+    <div class="kicker">🍂 West Chicago area &amp; the wider suburbs</div>
+    <h1>Fall &amp; <em>Halloween</em> guide</h1>
+    <p class="sub">Trunk-or-treats, fall fests, and trick-or-treat hours for October 2026 &mdash; nearby, across the region, and by town. Each event links back to where it was found.</p>
+  </header>
+
+  <div class="card-shell">
+
+  <div class="tabnav">
+    <button class="tabbtn active" onclick="showTab(this, 'fallfun')">🍁 Fall Fun</button>
+    <button class="tabbtn" onclick="showTab(this, 'trunk')">🚙 Trunk-or-Treat</button>
+    <button class="tabbtn" onclick="showTab(this, 'regional')">🚗 Within 1.5 hrs</button>
+    <button class="tabbtn" onclick="showTab(this, 'hours')">🕐 Trick-or-Treat Hours</button>
+  </div>
+
+  <!-- ============ TAB 2: TRUNK-OR-TREAT ============ -->
+  <div id="trunk" class="tabpanel">
+
+  <p class="region-note">Every dedicated trunk-or-treat I could find, in date order: flyers you sent, official city and park district posts, and Kidlist's Sept 22 list of confirmed 2026 events. Distances are rough drive times from West Chicago. Free unless noted.</p>
+
+  <div class="month-label">October</div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">8</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Tower Lighting, Costume Parade &amp; Trunk-or-Treat</h3>
+      <p class="meta"><span class="time">5:00 &ndash; 7:30 PM</span> &middot; Riverside Water Tower, Riverside, IL &middot; ~35 min from West Chicago &middot; free</p>
+      <p class="desc">Come in costume for the tower lighting and a costume parade, plus trunk-or-treat treats.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Costume parade</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">10</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (La Grange)</h3>
+      <p class="meta"><span class="time">10:00 &ndash; 11:30 AM</span> &middot; Sedgwick Park, La Grange, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Festive trunk-or-treat fun at the park.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">10</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>McHenry County Sheriff's Office Trunk or Treat</h3>
+      <p class="meta"><span class="time">11:00 AM &ndash; 2:00 PM</span> &middot; McHenry County Sheriff's Office, 2200 N. Seminary Ave, Woodstock, IL &middot; ~1 hr from West Chicago &middot; free</p>
+      <p class="desc">An open house trunk-or-treating extravaganza featuring each division of the Sheriff's Office, with decorated patrol vehicles and a chance to see the department up close.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Open house</span>
+        <span class="tag">Sheriff's divisions</span>
+      </div>
+      <p class="source">Source: McHenry County Sheriff's Office, Facebook flyer</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">10</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk-or-Treat in Space</h3>
+      <p class="meta"><span class="time">11:30 AM &ndash; 1:30 PM</span> &middot; Triton College science center, River Grove, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Trunk-or-treat at the college's science center.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Science center</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">10</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Wheaton Community Trunk or Treat</h3>
+      <p class="meta"><span class="time">2:00 &ndash; 4:30 PM</span> &middot; VFW Post 2164, Wheaton, IL &middot; ~15 min from West Chicago &middot; free</p>
+      <p class="desc">A community trunk-or-treat supporting BSA Troop 20 and the Wheaton VFW. Games, costumes, prizes, and candy from decorated trunks.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Games &amp; prizes</span>
+        <span class="tag">Scouts fundraiser</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event favorite">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">11</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <span class="favorite-badge">&#9733; Family favorite</span>
+      <h3>Cars &amp; Candy Trunk-or-Treat</h3>
+      <p class="meta"><span class="time">10:00 AM &ndash; 1:00 PM</span> &middot; Cadillac of Naperville, 1507 W Ogden Ave, Naperville, IL &middot; free</p>
+      <p class="desc">Free, inclusive Halloween event for all ages and abilities benefiting the local special needs community, hosted by The Be Yourself Group and the Forever Friends Foundation. Food from Portillo's, a pumpkin decorating patch, face painting, live music, custom and exotic cars, and plenty of candy.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Inclusive / all abilities</span>
+        <span class="tag">Car show</span>
+      </div>
+      <p class="source"><a href="https://www.facebook.com/events/cadillac-of-naperville/cars-candy-a-trunk-or-treat-car-show/1854103712236091/" target="_blank" rel="noopener">Source: Facebook event</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">16</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Freaky Fun Friday</h3>
+      <p class="meta"><span class="time">5:30 &ndash; 8:00 PM</span> &middot; Bolingbrook Recreation &amp; Aquatic Complex, Bolingbrook, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Trunk-or-treat and more spooky fun.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">17</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trucks and Treats</h3>
+      <p class="meta"><span class="time">10:00 AM &ndash; 12:00 PM</span> &middot; McCollum Park, Downers Grove, IL &middot; ~25 min from West Chicago &middot; free</p>
+      <p class="desc">Trunk-or-treat first, then stay for the touch-a-truck.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Touch-a-truck</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">17</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat at McHenry Outdoor Theater</h3>
+      <p class="meta"><span class="time">11:00 AM &ndash; 1:00 PM</span> &middot; McHenry Outdoor Theater (Golden Age Cinemas), McHenry, IL &middot; ~1 hr from West Chicago &middot; free</p>
+      <p class="desc">A free kids' trunk-or-treat at the drive-in, with local businesses signed up to hand out candy and a handful of vendors selling items on site.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Drive-in theater</span>
+      </div>
+      <p class="source">Source: McHenry Outdoor Theater / Golden Age Cinemas, Facebook</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">17</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Woodridge Library)</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 2:00 PM</span> &middot; Woodridge Public Library, Woodridge, IL &middot; ~25 min from West Chicago &middot; free</p>
+      <p class="desc">A morning-into-afternoon library trunk-or-treat.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">17</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Kiddie Academy of Darien Trunk-or-Treat</h3>
+      <p class="meta"><span class="time">2:00 &ndash; 4:00 PM</span> &middot; Kiddie Academy of Darien, Darien, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Face painting, treats, and more. Registration recommended.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Registration recommended</span>
+        <span class="tag">Face painting</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">17</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (La Grange Park)</h3>
+      <p class="meta"><span class="time">5:00 &ndash; 6:30 PM</span> &middot; Memorial Park, La Grange Park, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">An annual evening trunk-or-treat at the park.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">18</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Bears Tailgate &ndash; Trunk or Treat</h3>
+      <p class="meta"><span class="time">10:00 AM</span> &middot; Batavia Moose Lodge, 1535 S. Batavia Ave, Batavia, IL &middot; ~20 min from West Chicago</p>
+      <p class="desc">Pregame Bears tailgating in the back parking lot and pavilion, combined with a trunk-or-treat &mdash; decorate your trunk and join in before kickoff.</p>
+      <div class="tags">
+        <span class="tag">Bears tailgate</span>
+        <span class="tag">Trunk-or-treat</span>
+      </div>
+      <p class="source">Source: Batavia Moose Lodge, Facebook event</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">18</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (North Suburban YMCA)</h3>
+      <p class="meta"><span class="time">1:00 &ndash; 3:00 PM</span> &middot; North Suburban YMCA, Northbrook, IL &middot; ~45 min from West Chicago &middot; free</p>
+      <p class="desc">Festive trunk-or-treat fun at the YMCA.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">22</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Schaumburg Township Trunk or Treat</h3>
+      <p class="meta"><span class="time">3:00 &ndash; 7:00 PM</span> &middot; Schaumburg Township District Library, 130 S. Roselle Rd, Schaumburg, IL &middot; ~30 min from West Chicago &middot; free, no registration</p>
+      <p class="desc">At a new location this year: participants walk through the library parking lot, filled with local vendors, to show off costumes and collect candy.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">No registration</span>
+        <span class="tag">New location this year</span>
+      </div>
+      <p class="source">Source: Schaumburg Township, Facebook</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">22</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat at Avondale Estates of Elgin</h3>
+      <p class="meta"><span class="time">4:00 &ndash; 6:00 PM</span> &middot; Avondale Estates of Elgin, 1760 Capitol St, Elgin, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Decorated trunks, a live DJ, and lawn games like cornhole and ring toss. Free and family-friendly, everyone welcome.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Live DJ</span>
+        <span class="tag">Lawn games</span>
+      </div>
+      <p class="source">Source: Avondale Estates of Elgin, Facebook</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">22</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Haunted House &amp; Trunk or Treat</h3>
+      <p class="meta"><span class="time">4:30 &ndash; 7:30 PM</span> &middot; White Oak Library District, Romeoville Branch, Romeoville, IL &middot; ~35 min from West Chicago &middot; free</p>
+      <p class="desc">Explore the haunted house, the trunk-or-treat, or both. Registration recommended.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Registration recommended</span>
+        <span class="tag">Haunted house</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">23</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat &amp; Village Family Fall Fest</h3>
+      <p class="meta"><span class="time">4:30 &ndash; 6:30 PM</span> &middot; Kennedy Park / Shelton Field, Schiller Park, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">The former Halloween Howl, now a trunk-or-treat plus family fall fest.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">23</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (The Learning Experience, Wheeling)</h3>
+      <p class="meta"><span class="time">5:00 &ndash; 6:30 PM</span> &middot; The Learning Experience, Wheeling, IL &middot; ~35 min from West Chicago &middot; free</p>
+      <p class="desc">A pop-up trunk-or-treat. Registration required.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Registration required</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">23</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Oak Park)</h3>
+      <p class="meta"><span class="time">5:30 &ndash; 7:00 PM</span> &middot; Ridgeland Common Pool, Oak Park, IL &middot; ~35 min from West Chicago &middot; free</p>
+      <p class="desc">Plenty of treats at the pool grounds.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">23</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Hanover Park Park District Trunk or Treat</h3>
+      <p class="meta"><span class="time">6&ndash;8 PM</span> &middot; 1919 Walnut Ave (north lot), Hanover Park &middot; ~20 min from West Chicago &middot; free</p>
+      <p class="desc">Decorated trunks, food trucks, Halloween activities, a glowing pumpkin walk, and a costume contest with mystery prize baskets.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Costume contest</span>
+        <span class="tag">Pumpkin glow walk</span>
+      </div>
+      <p class="source"><a href="https://www.newsbreak.com/hanover-park-il-daily-brief-373188927/4885853157992-free-trunk-or-treat-night-in-hanover-park" target="_blank" rel="noopener">Source: Hanover Park Park District via NewsBreak</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">23</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Darien)</h3>
+      <p class="meta"><span class="time">6:00 &ndash; 7:00 PM</span> &middot; Darien Community Park, Darien, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">You can register to decorate your car and compete for prizes.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Car decorating prizes</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>BOOmingdale Halloween Party</h3>
+      <p class="meta"><span class="time">9 AM&ndash;1 PM</span> &middot; Bloomingdale &middot; ~20 min from West Chicago &middot; free</p>
+      <p class="desc">A village-wide party from the park district, village, and library: trunk-or-treat and Halloween-themed tours of the police and fire stations, plus a hay maze, moon jump, balloon artist, and face painter at the library.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Trunk-or-treat</span>
+        <span class="tag">Fire &amp; police tours</span>
+      </div>
+      <p class="note">Times vary by source: Mommy Poppins lists 9 AM&ndash;1 PM and Kidlist lists 9 AM&ndash;2 PM (it's two events in one).</p>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fairs-festivals/fall-festivals-in-chicago" target="_blank" rel="noopener">Source: Mommy Poppins 2026 fall festivals guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Arlington Heights)</h3>
+      <p class="meta"><span class="time">10:00 AM &ndash; 12:30 PM</span> &middot; Pioneer Park, Arlington Heights, IL &middot; ~35 min from West Chicago &middot; $10 (discounted with advance registration)</p>
+      <p class="desc">Register in advance for discounted admission.</p>
+      <div class="tags">
+        <span class="tag">Registration required</span>
+        <span class="tag">Pre-register for a discount</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Sensory &amp; Allergy Friendly Trunk N Treat</h3>
+      <p class="meta"><span class="time">11:00 AM &ndash; 1:00 PM</span> &middot; Metra Elburn Train Yard, Elburn, IL &middot; ~25 min from West Chicago &middot; free</p>
+      <p class="desc">A sensory-friendly, allergy-friendly trunk-or-treat session at the train yard.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Sensory-friendly</span>
+        <span class="tag">Allergy-friendly</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk-or-Treat (LifeSpring Community Church)</h3>
+      <p class="meta"><span class="time">11:00 AM &ndash; 1:30 PM</span> &middot; LifeSpring Community Church, Plainfield, IL &middot; ~40 min from West Chicago &middot; free</p>
+      <p class="desc">Join the fun at this church trunk-or-treat.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat 2026</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 3:00 PM</span> &middot; Lake Park High School &ndash; West Campus, 532 E Bryn Mawr Ave, Roselle, IL &middot; ~25 min from West Chicago</p>
+      <p class="desc">A big community trunk-or-treat hosted by Bloomingdale/Roselle Rotary and two partner groups, with a stage, vendors, and lots of decorated vehicles in the school lot. Over 700 people marked interested on Facebook.</p>
+      <div class="tags">
+        <span class="tag">Community-run</span>
+        <span class="tag">Large event</span>
+        <span class="tag">Rotary</span>
+      </div>
+      <p class="source">Source: Bloomingdale/Roselle Rotary, Facebook event</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Berwyn)</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 2:00 PM</span> &middot; Joseph C. Vallez Activity Center, Berwyn, IL &middot; ~35 min from West Chicago &middot; free</p>
+      <p class="desc">Halloween festivities including a costume contest and pumpkin patch.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Costume contest</span>
+        <span class="tag">Pumpkin patch</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat: A Spooktacular Event</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 3:00 PM</span> &middot; Prairie Lakes Community Center, Des Plaines, IL &middot; ~35 min from West Chicago &middot; free</p>
+      <p class="desc">Register in advance for a spot at this family-friendly event.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Registration required</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Christ Covenant Church)</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 2:00 PM</span> &middot; Christ Covenant Church of Villa Park, Villa Park, IL &middot; ~20 min from West Chicago &middot; free</p>
+      <p class="desc">Come for the treats. Registration recommended.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Registration recommended</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>West Chicago Downtown Trick-or-Treating &amp; Library Trunk or Treat</h3>
+      <p class="meta"><span class="time">1:00 &ndash; 3:00 PM</span> &middot; Downtown West Chicago &amp; West Chicago Public Library, IL</p>
+      <p class="desc">Hosted by the City of West Chicago Government and partners. The library portion draws community organizations, the police department, and local churches handing out candy from the library parking lot &mdash; nearly 1,300 attendees in past years.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Community-run</span>
+        <span class="tag">Downtown</span>
+      </div>
+      <p class="source">Source: City of West Chicago Government / West Chicago Public Library, Facebook event</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat at Clifford Johnson Elementary</h3>
+      <p class="meta"><span class="time">1:00 &ndash; 2:30 PM</span> &middot; Clifford Johnson Elementary School, 2S700 Continental Dr, Warrenville, IL &middot; ~15 min from West Chicago</p>
+      <p class="desc">PTA-run trunk-or-treat with decorated vehicles in the school parking lot.</p>
+      <div class="tags">
+        <span class="tag">PTA event</span>
+      </div>
+      <p class="source">Source: Clifford Johnson Elementary PTA flyer</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat in Wood Dale</h3>
+      <p class="meta"><span class="time">1:00 &ndash; 3:00 PM</span> &middot; 320 N Wood Dale Rd, Wood Dale, IL &middot; ~25 min from West Chicago</p>
+      <p class="desc">City-run trunk-or-treat with local businesses, clubs, and community groups hosting decorated vehicles for trick-or-treaters.</p>
+      <div class="tags">
+        <span class="tag">Trunk-or-treat</span>
+        <span class="tag">Community-run</span>
+      </div>
+      <p class="source"><a href="https://www.eventeny.com/events/trunk-or-treat-2026-32055/" target="_blank" rel="noopener">Source: City of Wood Dale, Facebook / eventeny.com</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Illinois Harley-Davidson)</h3>
+      <p class="meta"><span class="time">1:00 &ndash; 4:00 PM</span> &middot; Illinois Harley-Davidson, Countryside, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Annual event; candy distribution starts at 3 PM.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Annual</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>7th Annual Trunk or Treat</h3>
+      <p class="meta"><span class="time">2:00 &ndash; 4:00 PM</span> &middot; Legacy Elite Gymnastics, 881 Shoreline Dr, Aurora, IL</p>
+      <p class="desc">Free scavenger hunt, costume parade and contest at 2:45, and trick-or-treating at decorated trunks. Open gym runs 4:30&ndash;6 PM, with Kids' Night Out from 6&ndash;9 PM.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Costume contest</span>
+        <span class="tag">Scavenger hunt</span>
+      </div>
+      <p class="source">Source: Legacy Elite Gymnastics, shared in St Charles Illinois Area Neighbors Facebook group</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Young Dental Care's 2nd Annual Trunk-or-Treat</h3>
+      <p class="meta"><span class="time">2:00 &ndash; 4:00 PM</span> &middot; Young Dental Care, 1132 Prairie St, Aurora, IL &middot; ~30 min from West Chicago &middot; free, no RSVP</p>
+      <p class="desc">A free community event for kids and families with candy, decorated trunks, a touch-a-truck, raffle prizes, and a chance to meet the dental team. Come in costume.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Touch-a-truck</span>
+        <span class="tag">Raffle prizes</span>
+      </div>
+      <p class="source">Source: Young Dental Care, Facebook flyer</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat at Sanctuary Church</h3>
+      <p class="meta"><span class="time">3:00 &ndash; 6:00 PM</span> &middot; Sanctuary Church, 1S430 Wenmoth Rd, Batavia, IL</p>
+      <p class="desc">Family-friendly, free event in the church parking lot. Candy, games, prizes, bounce house, hay ride, and snacks.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Bounce house</span>
+        <span class="tag">Hay ride</span>
+      </div>
+      <p class="source">Source: Sanctuary Church flyer (sanctuaryag.com)</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Hoopla</h3>
+      <p class="meta"><span class="time">3:00 &ndash; 5:00 PM</span> &middot; Willowbrook Town Center, Willowbrook, IL &middot; ~25 min from West Chicago &middot; free</p>
+      <p class="desc">Games, a DJ, and a trunk-or-treat at this annual event hosted by the Willowbrook Burr Ridge Chamber of Commerce.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">DJ &amp; games</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Heritage Park)</h3>
+      <p class="meta"><span class="time">3:00 &ndash; 5:00 PM</span> &middot; Heritage Park, Homer Glen, IL &middot; ~45 min from West Chicago &middot; free</p>
+      <p class="desc">Trick-or-treat at candy-filled cars.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Knox Presbyterian Church)</h3>
+      <p class="meta"><span class="time">4:00 &ndash; 5:30 PM</span> &middot; Knox Presbyterian Church, Naperville, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Explore the trunks, then join for games and a dance party inside.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Dance party</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">25</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Baird &amp; Warner Plainfield)</h3>
+      <p class="meta"><span class="time">11:00 AM &ndash; 1:00 PM</span> &middot; Baird &amp; Warner, Plainfield, IL &middot; ~40 min from West Chicago &middot; free</p>
+      <p class="desc">Come in costume for this annual event.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Annual</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">25</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Addison Township Trunk or Treat</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 2:00 PM</span> &middot; Addison Township Campus (East Parking Lot), 401 N Addison Rd, Addison, IL &middot; ~20 min from West Chicago &middot; free</p>
+      <p class="desc">Annual township trunk-or-treat with a free lunch of hot dogs, chips, and drinks alongside the decorated trunks.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Free lunch</span>
+      </div>
+      <p class="source">Source: Addison Township, Facebook flyer</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">25</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Eggers Grove)</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 4:00 PM</span> &middot; Eggers Grove, Chicago, IL &middot; ~1 hr+ from West Chicago &middot; free</p>
+      <p class="desc">Lots of candy at this festive event.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">25</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat with Eagle Academy, My Gym &amp; Skill Samurai</h3>
+      <p class="meta"><span class="time">1:00 &ndash; 2:30 PM</span> &middot; Eagle Academy of Martial Arts, Aurora, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">A rain-or-shine trunk-or-treat hosted by three local kids' businesses.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Rain or shine</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">25</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Fall Fest Trunk or Treat (St. Luke)</h3>
+      <p class="meta"><span class="time">2:00 &ndash; 5:00 PM</span> &middot; Lutheran Church and School of St. Luke, Itasca, IL &middot; ~20 min from West Chicago &middot; free</p>
+      <p class="desc">Festive fall fun including a trunk-or-treat.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">26</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat at Our Savior Lutheran Church</h3>
+      <p class="meta">Our Savior Lutheran Church, Carol Stream, IL &middot; free</p>
+      <p class="desc">Costumed trick-or-treaters collect candy from the trunks of church members' decorated cars in the parking lot. All are welcome.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="note">Date shown is from the most recently published year &mdash; confirm the 2026 date before heading out.</p>
+      <p class="source"><a href="https://wheaton.macaronikid.com/events/68d1d62148ee5b24aff4e49b/-trunk-or-treat-at-our-savior-lutheran-church-in-carol-stream" target="_blank" rel="noopener">Source: Macaroni Kid Wheaton</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">26</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Community Fellowship Trunk or Treat</h3>
+      <p class="meta">Community Fellowship Church parking lot, Wheaton, IL &middot; weather permitting</p>
+      <p class="desc">Decorated-trunk trick-or-treating in the church parking lot; everyone is encouraged to invite friends and neighbors.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="note">Date shown is from the most recently published year &mdash; confirm the 2026 date before heading out.</p>
+      <p class="source"><a href="https://wheaton.macaronikid.com/events/671bbd25ba63080a954d0bd7/community-fellowship-trunk-or-treat" target="_blank" rel="noopener">Source: Macaroni Kid Wheaton</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Mon</div>
+      <div class="num">26</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat at Main Street</h3>
+      <p class="meta"><span class="time">4:00 &ndash; 5:30 PM</span> &middot; Main Street Recreation Center, Glen Ellyn, IL &middot; ~15 min from West Chicago &middot; free</p>
+      <p class="desc">Festively decorated trunks, plenty of sweet treats, and a pumpkin carving station.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Pumpkin carving</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Late</div>
+      <div class="num">Oct</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Trunk-or-Treat at Gary United Methodist Church</h3>
+      <p class="meta"><span class="time">10:00 AM &ndash; 12:00 PM</span> &middot; Gary UMC, 224 N. Main St, Wheaton, IL</p>
+      <p class="desc">Treats served from the decorated trunks of churchgoers' vehicles in the parking lot. Public is invited to dress up and join in &mdash; an annual tradition for the church.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Long-running annual event</span>
+      </div>
+      <p class="note">Gary UMC usually runs this the same morning as Downtown Wheaton Trick-or-Treating (2025 was Sat, Oct 25). With downtown moving to Oct 31 this year, the 2026 date could shift too, and it isn't posted yet.</p>
+      <p class="source"><a href="https://www.dailyherald.com/20231022/submitted-content/wheatons-gary-umc-to-host-trunk-or-treat-oct-28/" target="_blank" rel="noopener">Source: Daily Herald</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Late</div>
+      <div class="num">Oct</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Trunk-or-Treat at Village Green Church</h3>
+      <p class="meta"><span class="time">3:00 &ndash; 6:00 PM</span> &middot; Village Green Church, Wheaton, IL</p>
+      <p class="desc">Games, candy, hot chocolate, cider, s'mores, and decorated trunks in the church parking lot.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">S'mores &amp; cider</span>
+      </div>
+      <p class="note">Date shown is from the most recently published year &mdash; confirm the 2026 date before heading out.</p>
+      <p class="source"><a href="https://wheaton.macaronikid.com/events/671704d2346c120e13280a14/trunk-or-treat-at-village-green-church" target="_blank" rel="noopener">Source: Macaroni Kid Wheaton</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Wed</div>
+      <div class="num">28</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (The Compass Church, Wheaton)</h3>
+      <p class="meta"><span class="time">5:00 &ndash; 7:00 PM</span> &middot; The Compass Church, Wheaton Campus, Wheaton, IL &middot; ~15 min from West Chicago &middot; free</p>
+      <p class="desc">Registration required.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Registration required</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Wed</div>
+      <div class="num">28</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Medinah Park)</h3>
+      <p class="meta"><span class="time">6:00 &ndash; 7:30 PM</span> &middot; Medinah Park, Medinah, IL &middot; ~20 min from West Chicago &middot; free</p>
+      <p class="desc">Trunks and treats at the park.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">29</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Police Department Trunk-or-Treat (Barrington)</h3>
+      <p class="meta"><span class="time">5:00 &ndash; 6:30 PM</span> &middot; BMO Lot (Lot 18), Barrington, IL &middot; ~40 min from West Chicago &middot; free</p>
+      <p class="desc">An evening of fun with the Barrington Police Department.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Police department</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">30</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk-or-Treat (Bensenville)</h3>
+      <p class="meta"><span class="time">3:00 &ndash; 5:00 PM</span> &middot; Bensenville Village Hall, Bensenville, IL &middot; ~20 min from West Chicago &middot; free</p>
+      <p class="desc">Explore downtown Bensenville's decorated cars.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Downtown</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">30</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Rosemont)</h3>
+      <p class="meta"><span class="time">3:30 &ndash; 5:00 PM</span> &middot; Donald E. Stephens Athletic Complex (indoor pool), Rosemont, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Collect candy and enjoy family-friendly activities.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Indoor</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">30</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Harvest New Beginnings)</h3>
+      <p class="meta"><span class="time">5:00 &ndash; 8:00 PM</span> &middot; Harvest New Beginnings, Oswego, IL &middot; ~35 min from West Chicago &middot; free</p>
+      <p class="desc">Festive fun and treats. Registration required.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Registration required</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">30</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk-or-Treat (The Learning Experience, Bolingbrook)</h3>
+      <p class="meta"><span class="time">5:00 &ndash; 6:30 PM</span> &middot; The Learning Experience, Bolingbrook, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">An outdoor trunk-or-treat.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">30</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Bolingbrook Town Center)</h3>
+      <p class="meta"><span class="time">5:00 &ndash; 8:00 PM</span> &middot; Bolingbrook Town Center, Bolingbrook, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Stop by for treats at this event hosted by the Bolingbrook Non-Profit Coalition.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">31</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat at New Lenox United Methodist Church</h3>
+      <p class="meta"><span class="time">9:00 &ndash; 11:00 AM</span> &middot; 339 W. Haven Ave, New Lenox, IL &middot; ~1 hr from West Chicago &middot; free</p>
+      <p class="desc">Morning trunk-or-treat on Halloween itself, with candy and treats from decorated trunks in the church parking lot.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Morning event</span>
+      </div>
+      <p class="note">This is a longer drive than most of the list &mdash; worth it if you're already in the New Lenox area, or want a morning option on Halloween day itself before evening trick-or-treating.</p>
+      <p class="source">Source: New Lenox United Methodist Church flyer</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">31</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat (Forest Park)</h3>
+      <p class="meta"><span class="time">11:00 AM &ndash; 1:00 PM</span> &middot; Park District of Forest Park, Forest Park, IL &middot; ~35 min from West Chicago &middot; cost not listed</p>
+      <p class="desc">A Halloween-day morning trunk-or-treat.</p>
+      <div class="tags">
+        <span class="tag">Halloween day</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">1</div>
+      <div class="mon">Nov</div>
+    </div>
+    <div>
+      <h3>Trunk or Treat at Amvets Post 103</h3>
+      <p class="meta"><span class="time">1:00 &ndash; 4:00 PM</span> &middot; Amvets Post 103, Aurora, IL &middot; ~30 min from West Chicago &middot; open to the public</p>
+      <p class="desc">Decorated trunks and beds, a costume contest, prizes for the top trunks, and kids eat free while supplies last. A long-running annual event at the post.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Costume contest</span>
+        <span class="tag">Kids eat free</span>
+      </div>
+      <p class="source">Source: Amvets Post 103 Aurora IL, Facebook</p>
+    </div>
+  </div>
+
+  <footer>
+    This pulls together every trunk-or-treat-specific event found nearby &mdash; church parking-lot events like these tend to be announced only 2&ndash;4 weeks ahead, so several dates above are carried over from the last year each was publicly announced and flagged accordingly. Worth a search for "[your church/town] trunk or treat 2026" in early October for anything new that pops up close to the date.
+  </footer>
+
+  </div>
+
+  <!-- ============ TAB 2: FALL FUN ============ -->
+  <div id="fallfun" class="tabpanel active">
+
+  <p class="region-note">Pumpkin patches, corn mazes, apple orchards, harvest festivals, and other fall-fun events nearby that aren't trunk-or-treats &mdash; everything from a whole month at a farm to a single afternoon at the zoo. The farms below run as a season rather than a single date, so they're grouped separately from the one-day events.</p>
+
+  <div class="month-label">Runs for weeks (farms, patches &amp; seasonal)</div>
+
+  <div class="event favorite">
+    <div class="date-block">
+      <div class="dow">Sep 19&ndash;</div>
+      <div class="num">Oct 30</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <span class="favorite-badge">&#9733; Right in West Chicago</span>
+      <h3>Fall Festival &amp; Pumpkin Patch</h3>
+      <p class="meta">Sonny Acres Farm, 29W310 North Ave, West Chicago, IL &middot; free admission &amp; parking, pay per attraction</p>
+      <p class="desc">Pumpkin patch, farm store, and Sweet Shoppe, live DJs and entertainment, and a full food and drink lineup including hot and spiked apple cider. Haunted Hayride and Haunted Barn run select nights Oct 2&ndash;30 as a separate ticketed after-dark experience.</p>
+      <div class="tags">
+        <span class="tag">Free admission</span>
+        <span class="tag">Pay-per-ride attractions</span>
+      </div>
+      <p class="note">Worth it if: you go on a weekday. Reviews are genuinely split &mdash; longtime visitors love the animals, hayride, and rides, but weekend crowds and parking get called chaotic (2,000+ cars some days), and individual attractions run $6&ndash;10 each, which adds up fast for a family. Tuesday&ndash;Friday is the sweet spot.</p>
+      <p class="source"><a href="https://sonnyacres.com/fall-festival/" target="_blank" rel="noopener">Source: sonnyacres.com</a> &middot; <a href="https://www.yelp.com/biz/sonny-acres-farm-west-chicago-2" target="_blank" rel="noopener">Yelp reviews</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Oct</div>
+      <div class="num">1&ndash;30</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Pumpkin Fest</h3>
+      <p class="meta"><span class="time">9:00 AM &ndash; 5:00 PM daily</span> &middot; Cosley Zoo, 1356 N. Gary Ave, Wheaton, IL &middot; regular zoo admission (free for kids 0&ndash;17 &amp; Wheaton Park District residents)</p>
+      <p class="desc">Thousands of pumpkins line the zoo's front lawn all month, alongside the zoo's regular animal exhibits. Pumpkins, gourds, cider, and cornstalks for sale.</p>
+      <div class="tags">
+        <span class="tag">Free for kids</span>
+      </div>
+      <p class="note">Worth it: this is a low-key, low-crowd option compared to the bigger farms &mdash; a real working zoo rather than a carnival, so it's a gentler pace for younger kids.</p>
+      <p class="source"><a href="https://www.enjoyillinois.com/explore/listing/cosley-zoo-pumpkin-fest/" target="_blank" rel="noopener">Source: enjoyillinois.com</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Oct</div>
+      <div class="num">3&ndash;25</div>
+      <div class="mon"></div>
+    </div>
+    <div>
+      <h3>Boo! at the Zoo</h3>
+      <p class="meta"><span class="time">10 AM&ndash;5 PM weekdays, 10 AM&ndash;6 PM weekends</span> &middot; Brookfield Zoo Chicago, 3300 Golf Rd, Brookfield &middot; ~45 min from West Chicago &middot; $32.95 adults, $23.95 kids 3&ndash;11, plus $17&ndash;$20 parking</p>
+      <p class="desc">The whole zoo gets Halloween decorations and seasonal food. On weekends there is trick-or-treating, photo ops, and a costume parade.</p>
+      <div class="tags">
+        <span class="tag">Ticketed</span>
+        <span class="tag">Weekend trick-or-treat</span>
+        <span class="tag">Costume parade</span>
+      </div>
+      <p class="source"><a href="https://www.thehinsdalean.com/story/2026/09/24/pulse/fallapalooza/11384.html" target="_blank" rel="noopener">Source: The Hinsdalean 2026 fall guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat&ndash;Sun</div>
+      <div class="num">3&ndash;25</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Pumpkin Weekends at Blackberry Farm</h3>
+      <p class="meta"><span class="time">Sat &amp; Sun, 11 AM&ndash;4 PM</span> &middot; Blackberry Farm, 100 S. Barnes Rd, Aurora &middot; ~30 min from West Chicago &middot; admission ($10/person ages 1+ in recent years)</p>
+      <p class="desc">Fox Valley Park District's living-history farm goes full fall on weekends. Admission covers the train, carousel, ponies, and hay wagon, and one weekend day is a trick-or-treat day with candy stations around the park (11 AM&ndash;3 PM in past years).</p>
+      <div class="tags">
+        <span class="tag">Train &amp; carousel</span>
+        <span class="tag">Hay wagon</span>
+        <span class="tag">Trick-or-treat day</span>
+      </div>
+      <p class="note">The 2026 price and which weekend is trick-or-treat day weren't posted yet; check the site before going.</p>
+      <p class="source"><a href="https://www.blackberryfarm.info/plan-your-visit/" target="_blank" rel="noopener">Source: blackberryfarm.info</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sep 18&ndash;</div>
+      <div class="num">Nov 1</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Pumpkin FunFarm</h3>
+      <p class="meta">Kuipers Family Farm, 1N318 Watson Rd, Maple Park, IL &middot; ~1 hr from West Chicago &middot; $7&ndash;$15/person depending on activity</p>
+      <p class="desc">A full day of outdoor fall activities: corn maze, jumping pillow, mountain slide, farm animals, pig races, apple blaster, and the U-Pic Apple Orchard (more than 45 varieties) still going alongside the pumpkin harvest. The Orchard Shop &amp; Bakery is free to browse without a ticket.</p>
+      <div class="tags">
+        <span class="tag">Ticketed</span>
+        <span class="tag">Corn maze</span>
+        <span class="tag">U-pick apples</span>
+      </div>
+      <p class="note">Worth it: consistently well-reviewed for atmosphere, food (apple cider doughnuts get singled out often), and the sheer amount to do &mdash; the recurring complaint is that it's pricey once you add up apple picking, the corn maze, and activity tickets separately.</p>
+      <p class="source"><a href="https://www.kuipersfamilyfarm.com/" target="_blank" rel="noopener">Source: kuipersfamilyfarm.com</a> &middot; <a href="https://www.tripadvisor.com/Attraction_Review-g36316-d7190537-Reviews-Kuipers_Family_Farm-Maple_Park_Illinois.html" target="_blank" rel="noopener">Tripadvisor reviews</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sep&ndash;</div>
+      <div class="num">Oct</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Fall Festival</h3>
+      <p class="meta">Goebbert's Pumpkin Patch &amp; Apple Orchard, 42W813 Reinking Rd, Pingree Grove, IL &middot; ~1 hr from West Chicago &middot; admission required to pick apples; kids 2 &amp; under free</p>
+      <p class="desc">Apple picking, a pumpkin patch, wagon rides to the orchard, a corn maze, pig races, a carousel, a train, animal attractions, and a haunted house. A wagon ride to the apple orchard is included with festival admission; apple-picking bags cost extra.</p>
+      <div class="tags">
+        <span class="tag">Corn maze</span>
+        <span class="tag">U-pick apples</span>
+        <span class="tag">Pig races</span>
+      </div>
+      <p class="source"><a href="https://patch.com/illinois/across-il/apple-picking-season-here-where-go-around-chicagoland" target="_blank" rel="noopener">Source: Patch apple-picking roundup</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sep 19&ndash;</div>
+      <div class="num">Oct 31</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Pumpkin Daze</h3>
+      <p class="meta">Abbey Farms &amp; The Nagel Emporium, 2855 Hart Rd, Aurora, IL &middot; ~30 min from West Chicago &middot; admission covers most activities</p>
+      <p class="desc">Pumpkin patch, corn maze, hayrides, a petting zoo, playground, pedal karts, and a jumping pillow. Most activities are included with paid admission &mdash; no extra tickets needed for a longer stay. Craft beer tent and fire pits for the grown-ups; a Saturday Night Maze runs 6&ndash;10pm.</p>
+      <div class="tags">
+        <span class="tag">Corn maze</span>
+        <span class="tag">Petting zoo</span>
+        <span class="tag">Beer tent (adults)</span>
+      </div>
+      <p class="source"><a href="https://abbeyfarms.org/" target="_blank" rel="noopener">Source: abbeyfarms.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sep 26&ndash;</div>
+      <div class="num">Nov 1</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Fall Festival &amp; U-Pick Pumpkins</h3>
+      <p class="meta"><span class="time">Daily, 9am&ndash;7pm</span> &middot; Windy Acres, 37W446 Fabyan Pkwy, Geneva, IL &middot; ~35 min from West Chicago &middot; free entry, pay for what you pick</p>
+      <p class="desc">A simpler, roadside-stand-style pick-your-own pumpkin patch with cornstalks, gourds, squash, straw bales, fall mums, apples, cider, honey, and some genuinely huge (100 lb) pumpkins.</p>
+      <div class="tags">
+        <span class="tag">Free entry</span>
+        <span class="tag">U-pick pumpkins</span>
+        <span class="tag">Low-key</span>
+      </div>
+      <p class="source"><a href="https://www.pumpkinpatchesandmore.org/ILpchicago-west.php" target="_blank" rel="noopener">Source: PumpkinPatchesAndMore.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Weekends</div>
+      <div class="num">Oct</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Fall Festival</h3>
+      <p class="meta">Abbey Farms of Marmion Abbey, 850 Butterfield Rd, Aurora, IL &middot; ~30 min from West Chicago</p>
+      <p class="desc">A pumpkin patch and corn maze on the Marmion Abbey campus, running since 1957, with proceeds supporting the Marmion monks' ministries. Straw bale maze, wagon rides, a bounce house, and petting zoo/pony rides on weekends.</p>
+      <div class="tags">
+        <span class="tag">Corn maze</span>
+        <span class="tag">Nonprofit</span>
+      </div>
+      <p class="source"><a href="https://www.pumpkinpatchesandmore.org/ILpchicago-west.php" target="_blank" rel="noopener">Source: PumpkinPatchesAndMore.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">2&ndash;</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Fall Season</h3>
+      <p class="meta">Thanksgiving Farm, 1221 Lindenwood, Aurora, IL &middot; ~30 min from West Chicago</p>
+      <p class="desc">An organic-practice family farm with a pick-your-own pumpkin patch, hayrides, fresh-pressed cider, honey from the farm's own hives, and a petting zoo. Runs through December for Christmas trees afterward.</p>
+      <div class="tags">
+        <span class="tag">Organic</span>
+        <span class="tag">Petting zoo</span>
+      </div>
+      <p class="source"><a href="https://www.pumpkinpatchesandmore.org/ILpchicago-west.php" target="_blank" rel="noopener">Source: PumpkinPatchesAndMore.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Labor Day&ndash;</div>
+      <div class="num">Nov 1</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Pumpkin Farm &amp; Corn Maze</h3>
+      <p class="meta">Sugar Grove Pumpkin Farm &amp; Produce, 4S041 Merrill Rd, Sugar Grove, IL &middot; ~40 min from West Chicago &middot; free entry</p>
+      <p class="desc">A small vintage dairy farm turned pumpkin patch &mdash; over 55 varieties of pumpkins and gourds, mums, straw bales, and a complimentary corn maze. Best suited to smaller groups (scout troops, daycares, preschools).</p>
+      <div class="tags">
+        <span class="tag">Free entry</span>
+        <span class="tag">Corn maze</span>
+        <span class="tag">Small &amp; low-key</span>
+      </div>
+      <p class="source"><a href="https://www.pumpkinpatchesandmore.org/ILpchicago-west.php" target="_blank" rel="noopener">Source: PumpkinPatchesAndMore.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sep 5&ndash;</div>
+      <div class="num">Nov 1</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Corn Maze &amp; Apple Orchard</h3>
+      <p class="meta">Jonamac Orchard, 19412 Shabbona Rd, Malta, IL &middot; ~1 hr from West Chicago</p>
+      <p class="desc">A serious destination for corn-maze fans: 10 acres with 3 miles of pathways and two bridges, plus a separate haunted corn maze at night. Also apples, pumpkins, a weekend hayride to the pick-your-own pumpkin patch, an Apple Train, an Apple Launcher, and a barnyard play area.</p>
+      <div class="tags">
+        <span class="tag">Large corn maze</span>
+        <span class="tag">Haunted maze (night)</span>
+        <span class="tag">U-pick apples</span>
+      </div>
+      <p class="source"><a href="https://www.jonamacorchard.com/" target="_blank" rel="noopener">Source: jonamacorchard.com</a></p>
+    </div>
+  </div>
+
+  <div class="month-label">Single-day &amp; weekend events</div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">2</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Night at the Museum Halloween Party</h3>
+      <p class="meta"><span class="time">6&ndash;8:30 PM</span> &middot; DuPage County Historical Museum, Wheaton &middot; ~15 min from West Chicago &middot; kids must be with a paid adult</p>
+      <p class="desc">After-hours, non-scary museum fun: a three-story flashlight scavenger hunt, crafts, and a live model-train demonstration.</p>
+      <div class="tags">
+        <span class="tag">Non-scary</span>
+        <span class="tag">Flashlight hunt</span>
+        <span class="tag">Evening</span>
+      </div>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fall-activities/top-halloween-events-near-chicago-for-kids-and-families" target="_blank" rel="noopener">Source: Mommy Poppins 2026 Halloween guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri&ndash;Sat</div>
+      <div class="num">2&ndash;3</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Oktoberfest at Naper Settlement</h3>
+      <p class="meta"><span class="time">Fri 5&ndash;10 PM &middot; Sat 3&ndash;10 PM</span> &middot; Naper Settlement, 523 S. Webster St, Naperville &middot; ~40 min from West Chicago &middot; $25 adults, $15 kids 4&ndash;12</p>
+      <p class="desc">German food and beer in a big tent, live music, and an expanded kids' area on Saturday. Stein-holding contests Saturday 5&ndash;5:30 PM.</p>
+      <div class="tags">
+        <span class="tag">Ticketed</span>
+        <span class="tag">Kids' area Saturday</span>
+        <span class="tag">Live music</span>
+      </div>
+      <p class="source"><a href="https://www.positivelynaperville.com/2026/09/23/naper-settlement-presents-seasonal-events-and-programs-during-october-2026/161288" target="_blank" rel="noopener">Source: Positively Naperville (Naper Settlement Oct 2026 schedule)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">3</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Family Fall Fest</h3>
+      <p class="meta"><span class="time">9 AM&ndash;Noon</span> &middot; The Depot at Wild Meadows Trace, 511 S York St, Elmhurst &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Elmhurst Park District's costume-friendly fall morning with Safety Town trick-or-treating plus fall activities. Outdoors, rain or shine.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Trick-or-treat</span>
+        <span class="tag">Morning</span>
+      </div>
+      <p class="source"><a href="https://www.epd.org/news/family-fall-fest" target="_blank" rel="noopener">Source: Elmhurst Park District</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">3</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Lombard Fall Fest</h3>
+      <p class="meta">Lombard &middot; ~20 min from West Chicago &middot; free</p>
+      <p class="desc">Lombard's kickoff-to-Halloween event with games, dancing, face painting, and a candy hunt. Boo Bingo runs 12:30&ndash;1:30 PM at the Lombard Community Building.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Candy hunt</span>
+        <span class="tag">Boo Bingo</span>
+      </div>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fairs-festivals/fall-festivals-in-chicago" target="_blank" rel="noopener">Source: Mommy Poppins 2026 fall festivals guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">3</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Trick-or-Treat Trail (Oak Brook)</h3>
+      <p class="meta"><span class="time">Starts 2 PM</span> &middot; Oak Brook Park District &middot; ~30 min from West Chicago</p>
+      <p class="desc">A half-mile loop through the woods where costumed characters hand out treats, then a wagon ride to a pumpkin patch where each child picks a pumpkin.</p>
+      <div class="tags">
+        <span class="tag">Trick-or-treat trail</span>
+        <span class="tag">Pumpkin for each kid</span>
+      </div>
+      <p class="note">This one tends to sell out; call Oak Brook Park District ahead.</p>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fall-activities/top-halloween-events-near-chicago-for-kids-and-families" target="_blank" rel="noopener">Source: Mommy Poppins 2026 Halloween guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">9</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Happening (Wheaton Park District)</h3>
+      <p class="meta"><span class="time">5:30&ndash;7:30 PM</span> &middot; Ray Morrill Community Center, 1777 S Blanchard St, Wheaton &middot; ~15 min from West Chicago &middot; free entry, some activities have small fees</p>
+      <p class="desc">Games, prizes, touch-a-truck, bounce house, airbrush tattoos, a life-size Candyland game, and food trucks. Costumes encouraged, all ages. A Fun Pass covers unlimited games; a VIP Fun Pass gets you in at 5 PM.</p>
+      <div class="tags">
+        <span class="tag">All ages</span>
+        <span class="tag">Touch-a-truck</span>
+        <span class="tag">Food trucks</span>
+      </div>
+      <p class="source"><a href="https://wheatonparkdistrict.com/events/10-9-halloween-happening/" target="_blank" rel="noopener">Source: wheatonparkdistrict.com</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">9&ndash;11</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Scarecrow Weekend</h3>
+      <p class="meta"><span class="time">Fri 10am&ndash;9pm &middot; Sat 10am&ndash;9pm &middot; Sun 10am&ndash;5pm</span> &middot; Downtown St. Charles, IL &middot; ~25 min from West Chicago &middot; free (fees for carnival rides)</p>
+      <p class="desc">41st annual: 120+ handmade scarecrows on display around downtown for visitors to view and vote on. A Family Zone with live entertainment, an Activity Zone with photo ops and a Scarecrow-to-Go craft station, live music on 1st Street Plaza, carnival rides, and the Autumn on the Fox Art &amp; Craft Show in Pottawatomie Park.</p>
+      <div class="tags">
+        <span class="tag">Free entry</span>
+        <span class="tag">Craft show</span>
+        <span class="tag">Carnival rides (ticketed)</span>
+      </div>
+      <p class="note">Worth it: this is its 41st year running, which says a lot on its own &mdash; a genuine long-running St. Charles tradition rather than a one-off. Expect real crowds downtown on Saturday.</p>
+      <p class="source"><a href="https://www.scarecrowfest.com/" target="_blank" rel="noopener">Source: scarecrowfest.com</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri&ndash;Sun</div>
+      <div class="num">9&ndash;11</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Glass Pumpkin Patch</h3>
+      <p class="meta">Morton Arboretum, 4100 Route 53, Lisle &middot; ~30 min from West Chicago &middot; admission from $18.95 adults, $12.95 kids 4&ndash;17, free 3 &amp; under</p>
+      <p class="desc">More than 8,000 handmade glass pumpkins on display and for sale, with glassblowing demos every 30 minutes (noon&ndash;5 PM Fri, 11 AM&ndash;5 PM Sat&ndash;Sun). Rain or shine. Mid-October is also peak fall-color season at the arboretum.</p>
+      <div class="tags">
+        <span class="tag">Ticketed</span>
+        <span class="tag">Glassblowing demos</span>
+        <span class="tag">Fall colors</span>
+      </div>
+      <p class="source"><a href="https://www.thehinsdalean.com/story/2026/09/24/pulse/fallapalooza/11384.html" target="_blank" rel="noopener">Source: The Hinsdalean 2026 fall guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">10</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>HomeSmart Halloween Town</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 4:00 PM</span> &middot; HomeSmart Connect Real Estate, 1003 W. Main St, St. Charles, IL &middot; ~25 min from West Chicago &middot; free</p>
+      <p class="desc">A free family event timed to Scarecrow Festival weekend &mdash; free hot dogs, free face painting, kids' games and prizes, sweet treats, a selfie photo area, and a coloring contest, plus giveaways from local businesses. Starfish Animal Rescue is on site with adoptable dogs to meet.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Face painting</span>
+        <span class="tag">Adoptable dogs</span>
+      </div>
+      <p class="source">Source: HomeSmart Connect Real Estate, Facebook event</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">10</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Harvest Fest (Lemont)</h3>
+      <p class="meta"><span class="time">3:00 &ndash; 6:00 PM</span> &middot; Lemont Park District, Lemont, IL &middot; ~35 min from West Chicago &middot; free</p>
+      <p class="desc">Hay rides and family-friendly fall fun. A sensory-friendly hour runs 3 to 3:30 PM.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Hay rides</span>
+        <span class="tag">Sensory-friendly hour</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat&ndash;Sun</div>
+      <div class="num">10&ndash;11</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Fall Festival at Danada</h3>
+      <p class="meta"><span class="time">11 AM&ndash;5 PM</span> &middot; Danada Equestrian Center, 3S507 Naperville Rd, Wheaton &middot; ~20 min from West Chicago &middot; free admission &amp; parking, small fees for some activities</p>
+      <p class="desc">The DuPage Forest Preserve District's biggest event: trick riding and drill-team shows, pony rides, horse-drawn wagon rides, barn tours, a painting horse, and food trucks.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Pony rides</span>
+        <span class="tag">Horse shows</span>
+      </div>
+      <p class="note">One 2026 guide lists Oct 11&ndash;12 instead. The Forest Preserve's own listing says Oct 10&ndash;11 (Sat&ndash;Sun), which fits past years; double-check at dupageforest.org.</p>
+      <p class="source"><a href="https://www.active.com/wheaton-il/classes/fall-festival-at-danada-2026" target="_blank" rel="noopener">Source: Forest Preserve listing via active.com</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Mon</div>
+      <div class="num">12</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Not So Scary Golf</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 5:00 PM</span> &middot; Coyote Crossing Mini Golf, 27W650 North Ave, West Chicago, IL</p>
+      <p class="desc">Costume-friendly evening of mini golf with Halloween fun for the whole family, from the Carol Stream Park District.</p>
+      <div class="tags">
+        <span class="tag">Mini golf</span>
+        <span class="tag">Costumes welcome</span>
+      </div>
+      <p class="source"><a href="https://www.csparks.org/event/not-so-scary-golf/" target="_blank" rel="noopener">Source: csparks.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">15</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Boo Bash (sensory-friendly)</h3>
+      <p class="meta">Cosley Zoo, 1356 N. Gary Ave, Wheaton, IL</p>
+      <p class="desc">A Halloween event created with neurodiverse children and families in mind &mdash; explore the zoo at your own pace in a low-sensory way. Costumes welcome.</p>
+      <div class="tags">
+        <span class="tag">Sensory-friendly</span>
+      </div>
+      <p class="source"><a href="https://cosleyzoo.org/event-calendar/" target="_blank" rel="noopener">Source: cosleyzoo.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">15</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Witches Walk</h3>
+      <p class="meta">Evening &middot; Downtown Glen Ellyn, IL</p>
+      <p class="desc">Spellbinding fashion, magical home decor, and enchanting accessories under the moonlight along Main Street. Raffles, witches' brew, and spell-casting fun.</p>
+      <div class="tags">
+        <span class="tag">Adults / all ages</span>
+        <span class="tag">Downtown</span>
+      </div>
+      <p class="source"><a href="https://downtownglenellyn.com/full-events-calendar" target="_blank" rel="noopener">Source: downtownglenellyn.com</a></p>
+    </div>
+  </div>
+
+  <div class="event favorite">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">16</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <span class="favorite-badge">&#9733; Right in West Chicago</span>
+      <h3>Boo Bash (West Chicago Park District)</h3>
+      <p class="meta"><span class="time">5:30&ndash;8:30 PM</span> &middot; ARC Center, 201 W. National St, West Chicago &middot; ages 17 &amp; under, adults free &middot; pre-register by noon Oct 16 (walk-up $15)</p>
+      <p class="desc">Haunted hayride in Reed-Keppler Park, pumpkin patch, Halloween Run inflatable, a mad-science lab, a candy-corn scavenger hunt through the ARC Center, a Nerf "Ghost Blasters" room, and open play in Treetop Escape.</p>
+      <div class="tags">
+        <span class="tag">Registration required</span>
+        <span class="tag">Haunted hayride</span>
+        <span class="tag">Pumpkin patch</span>
+      </div>
+      <p class="source"><a href="https://www.we-goparks.org/special-events" target="_blank" rel="noopener">Source: we-goparks.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">16</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Spooktacular Halloween Stroll</h3>
+      <p class="meta">Evening &middot; Cosley Zoo, 1356 N. Gary Ave, Wheaton, IL &middot; $12.95/person</p>
+      <p class="desc">An evening walk through the zoo with family-friendly seasonal decorations and activities. Finish by decorating a pumpkin, or take one home to decorate. Register early to secure a spot.</p>
+      <div class="tags">
+        <span class="tag">Ticketed</span>
+        <span class="tag">Evening</span>
+      </div>
+      <p class="source"><a href="https://cosleyzoo.org/10-16-spooktacular-halloween-stroll/" target="_blank" rel="noopener">Source: cosleyzoo.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">16</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Pumpkin Night Hike</h3>
+      <p class="meta"><span class="time">5:30&ndash;9 PM (last group 7:30 PM)</span> &middot; Fullersburg Woods, 3609 Spring Rd, Oak Brook &middot; ~35 min from West Chicago &middot; $10, free 2 &amp; under</p>
+      <p class="desc">A self-guided night hike lit by pumpkins and lanterns, with a Halloween scavenger hunt for kids and a treat at the end.</p>
+      <div class="tags">
+        <span class="tag">Evening</span>
+        <span class="tag">Scavenger hunt</span>
+        <span class="tag">All ages</span>
+      </div>
+      <p class="source"><a href="https://www.thehinsdalean.com/story/2026/09/24/pulse/fallapalooza/11384.html" target="_blank" rel="noopener">Source: The Hinsdalean 2026 fall guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">16</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Pumpkin Swim</h3>
+      <p class="meta"><span class="time">Starts 6 PM</span> &middot; Oak Brook Aquatic Center &middot; ~30 min from West Chicago &middot; fee for kids only, adults free</p>
+      <p class="desc">Kids dive for eggs filled with candy and a chance to win a full-size pumpkin, split into pools by age group.</p>
+      <div class="tags">
+        <span class="tag">Indoor pool</span>
+        <span class="tag">Candy dive</span>
+      </div>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fall-activities/top-halloween-events-near-chicago-for-kids-and-families" target="_blank" rel="noopener">Source: Mommy Poppins 2026 Halloween guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">17</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Boo Bash</h3>
+      <p class="meta">Founders Park / Charles R. Beggs Activity Center, 0N020 County Farm Rd, Winfield, IL</p>
+      <p class="desc">Winfield Park District's costume contests, trick-or-treating, a bounce house, and games. Time wasn't posted yet at time of writing &mdash; worth confirming closer to the date.</p>
+      <div class="tags">
+        <span class="tag">Costume contest</span>
+        <span class="tag">Bounce house</span>
+      </div>
+      <p class="source"><a href="https://winfieldparkdistrict.com/community-links" target="_blank" rel="noopener">Source: winfieldparkdistrict.com</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">17</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Haunted Forest Westmont</h3>
+      <p class="meta">Starts at Diane Main Park, Westmont &middot; ~30 min from West Chicago &middot; daytime session for little kids, scarier 7 PM session for tweens and teens</p>
+      <p class="desc">A haunted hayride from Diane Main Park to Sandra Smith Woods, then a walk through the spooky woods.</p>
+      <div class="tags">
+        <span class="tag">Haunted hayride</span>
+        <span class="tag">Two scare levels</span>
+      </div>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fall-activities/top-halloween-events-near-chicago-for-kids-and-families" target="_blank" rel="noopener">Source: Mommy Poppins 2026 Halloween guide</a></p>
+    </div>
+  </div>
+
+  <div class="event favorite">
+    <div class="date-block">
+      <div class="dow">Sat&ndash;Sun</div>
+      <div class="num">17&ndash;18</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <span class="favorite-badge">&#9733; Right in West Chicago</span>
+      <h3>Corn Harvest at Kline Creek Farm</h3>
+      <p class="meta"><span class="time">1:30&ndash;3:30 PM, Oct 17&ndash;18 and 24&ndash;25</span> &middot; Kline Creek Farm, 1N600 County Farm Rd, West Chicago &middot; ~10 min away</p>
+      <p class="desc">Help bring in the 1890s living-history farm's heirloom corn crop, which feeds the farm animals all year. All ages; kids with an adult.</p>
+      <div class="tags">
+        <span class="tag">Hands-on</span>
+        <span class="tag">Farm animals</span>
+        <span class="tag">Two weekends</span>
+      </div>
+      <p class="source"><a href="https://www.thehinsdalean.com/story/2026/09/24/pulse/fallapalooza/11384.html" target="_blank" rel="noopener">Source: The Hinsdalean 2026 fall guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">18</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Let's Play Fall Fest</h3>
+      <p class="meta"><span class="time">10:00 AM &ndash; 12:00 PM</span> &middot; Heritage Lakes School, 925 Woodhill Dr, Carol Stream, IL</p>
+      <p class="desc">Free outdoor community event from CCSD93 and the Glenbard Early Childhood Collaborative. Face painting, play stations, giveaways, music, community resources, and trunk-or-treat. The 501st Midwest Garrison (Star Wars costumers &mdash; Darth Vader and Stormtroopers) are also confirmed to appear.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Costumes encouraged</span>
+        <span class="tag">Trunk-or-treat</span>
+      </div>
+      <p class="note">Rain date: Oct 25, same time.</p>
+      <p class="source">Source: CCSD93 sponsored post, Facebook</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">22</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Monster Bash (Lombard)</h3>
+      <p class="meta"><span class="time">12:30&ndash;1:30 PM</span> &middot; Sunset Knoll Recreation Center, 820 S. Finley Rd, Lombard</p>
+      <p class="desc">A midday Halloween party with spooky games and treats; costumes encouraged. Aimed at little kids given the weekday timing.</p>
+      <div class="tags">
+        <span class="tag">Little kids</span>
+        <span class="tag">Costumes</span>
+      </div>
+      <p class="source"><a href="https://lombardparks.com/monster-bash/" target="_blank" rel="noopener">Source: lombardparks.com</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">22</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Wagon Ride</h3>
+      <p class="meta"><span class="time">6&ndash;8:30 PM, rides every 30 min</span> &middot; St. James Farm, 2S541 Winfield Rd, Warrenville &middot; ~15 min from West Chicago &middot; $10, free 2 &amp; under</p>
+      <p class="desc">A 2-mile wagon ride along decorated trails that starts with a ghost story and ends by the fire.</p>
+      <div class="tags">
+        <span class="tag">Evening</span>
+        <span class="tag">Wagon ride</span>
+        <span class="tag">All ages</span>
+      </div>
+      <p class="source"><a href="https://www.thehinsdalean.com/story/2026/09/24/pulse/fallapalooza/11384.html" target="_blank" rel="noopener">Source: The Hinsdalean 2026 fall guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu&ndash;Sat</div>
+      <div class="num">22&ndash;24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Spooky Trail</h3>
+      <p class="meta"><span class="time">Thu 7:30&ndash;9 PM &middot; Fri&ndash;Sat 7:30&ndash;10 PM</span> &middot; The CORE, Reed-Keppler Park, West Chicago &middot; $15 presale, $18 at the door</p>
+      <p class="desc">A quarter-mile haunted trail through the woods with creepy clowns and other scares. Only 150 presale tickets per night.</p>
+      <div class="tags">
+        <span class="tag">Haunted trail</span>
+        <span class="tag">Limited tickets</span>
+      </div>
+      <p class="note">This one is a real scare trail, so probably better for older kids than little ones.</p>
+      <p class="source"><a href="https://www.we-goparks.org/special-events" target="_blank" rel="noopener">Source: we-goparks.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">23</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Candy Carnival (Addison Park District)</h3>
+      <p class="meta"><span class="time">5:30&ndash;7:30 PM</span> &middot; Addison &middot; ~20 min from West Chicago</p>
+      <p class="desc">Kids play games to win candy, with inflatables and crafts, plus an extra treat for coming in costume. Parents must stay with kids.</p>
+      <div class="tags">
+        <span class="tag">Carnival games</span>
+        <span class="tag">Inflatables</span>
+      </div>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fall-activities/top-halloween-events-near-chicago-for-kids-and-families" target="_blank" rel="noopener">Source: Mommy Poppins 2026 Halloween guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">23</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Splash Into Fall</h3>
+      <p class="meta"><span class="time">7:00 &ndash; 9:00 PM</span> &middot; Fountain View Recreation Center, 910 N Gary Ave, Carol Stream, IL &middot; $5 residents / $7 non-residents</p>
+      <p class="desc">Swim and search for treasures in a floating pumpkin patch, with fall-themed pool toys, family swim time, and Halloween giveaways.</p>
+      <div class="tags">
+        <span class="tag">Indoor pool</span>
+        <span class="tag">Evening</span>
+      </div>
+      <p class="source"><a href="https://www.csparks.org/event/splash-into-fall/" target="_blank" rel="noopener">Source: csparks.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri&ndash;Sat</div>
+      <div class="num">23&ndash;24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Lantern-Lit Halloween Hike</h3>
+      <p class="meta"><span class="time">6&ndash;9 PM (last group 7:30 PM)</span> &middot; St. James Farm, 2S541 Winfield Rd, Warrenville &middot; ~15 min from West Chicago &middot; $10</p>
+      <p class="desc">A 2-mile self-guided lantern-lit hike on spooky trails, starting with a ghost story and ending around the fire.</p>
+      <div class="tags">
+        <span class="tag">Evening</span>
+        <span class="tag">Hike</span>
+        <span class="tag">All ages</span>
+      </div>
+      <p class="source"><a href="https://www.thehinsdalean.com/story/2026/09/24/pulse/fallapalooza/11384.html" target="_blank" rel="noopener">Source: The Hinsdalean 2026 fall guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri&ndash;Sat</div>
+      <div class="num">23&ndash;24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Howlin' at the Moon (21+)</h3>
+      <p class="meta"><span class="time">5&ndash;10 PM</span> &middot; Naper Settlement, Naperville &middot; $25, adults 21+ only</p>
+      <p class="desc">An adults-only Halloween party with live music, a food truck "graveyard," a costume contest, and themed art and photo spots. Good date-night option.</p>
+      <div class="tags">
+        <span class="tag">21+ only</span>
+        <span class="tag">Costume contest</span>
+      </div>
+      <p class="source"><a href="https://www.positivelynaperville.com/2026/09/23/naper-settlement-presents-seasonal-events-and-programs-during-october-2026/161288" target="_blank" rel="noopener">Source: Positively Naperville (Naper Settlement Oct 2026 schedule)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Parade &amp; Trick-or-Treating</h3>
+      <p class="meta"><span class="time">9:30 AM parade staging &middot; 9:45 AM parade steps off &middot; 10 AM&ndash;12 PM crafts, games &amp; trick-or-treat</span> &middot; Downtown Glen Ellyn, IL</p>
+      <p class="desc">Kids and parents march in the parade, then trick-or-treat at participating downtown businesses. Costume contests for people and pets, plus a Halloween juggler wandering downtown.</p>
+      <div class="tags">
+        <span class="tag">Parade</span>
+        <span class="tag">Costume contest</span>
+        <span class="tag">Downtown</span>
+      </div>
+      <p class="source"><a href="https://patch.com/illinois/glenellyn/halloween-festival-parade-set-oct-24-glen-ellyn" target="_blank" rel="noopener">Source: Patch (2026 announcement)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Boo Bash</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 1:30 PM</span> &middot; Ackerman Park, 800 St. Charles Rd, Glen Ellyn, IL &middot; $15/$25</p>
+      <p class="desc">Trick-or-treat trail with costumed characters, Halloween snacks and refreshments, and a stop at the pumpkin patch to take one home. Ages 2&ndash;10 with an adult; registration required.</p>
+      <div class="tags">
+        <span class="tag">Registration required</span>
+        <span class="tag">Ages 2&ndash;10</span>
+      </div>
+      <p class="note">Mommy Poppins lists a 10 AM start for this one, while the park district listing showed 12&ndash;1:30 PM. Check the time when you register.</p>
+      <p class="source"><a href="https://gepark.org/gepdevent/boo-bash/" target="_blank" rel="noopener">Source: gepark.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trick or Treat Trail</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 2:00 PM</span> &middot; Red Hawk Park, 651 W. St. Charles Rd, Carol Stream, IL</p>
+      <p class="desc">Carol Stream Park District's costume trail (about 1.1 miles) for kids ages 4&ndash;17, with candy, games, and a bounce house. Registration required.</p>
+      <div class="tags">
+        <span class="tag">Registration required</span>
+        <span class="tag">Ages 4&ndash;17</span>
+      </div>
+      <p class="source"><a href="https://www.csparks.org/event/trick-or-treat-trail/" target="_blank" rel="noopener">Source: csparks.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Ghouls and Goblins Fest</h3>
+      <p class="meta"><span class="time">3:00 &ndash; 5:00 PM</span> &middot; Blackhawk Park, Indian Head Park, IL &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Food, games, free candy, and a costume parade.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Costume parade</span>
+      </div>
+      <p class="source"><a href="https://mykidlist.com/trunk-or-treat/" target="_blank" rel="noopener">Source: Kidlist trunk-or-treat list (Sept 22, 2026)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Downtown Lisle Trick or Treat</h3>
+      <p class="meta"><span class="time">12:00 &ndash; 3:00 PM</span> &middot; Main Street, Downtown Lisle, IL &middot; ~25 min from West Chicago &middot; free</p>
+      <p class="desc">Costumed trick-or-treating along Main Street in downtown Lisle, with free candy from participating businesses. Sponsored by the Lisle Area Chamber of Commerce.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Downtown</span>
+      </div>
+      <p class="source">Source: Lisle Area Chamber of Commerce flyer</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>BatFest</h3>
+      <p class="meta"><span class="time">10:00 AM &ndash; 2:00 PM</span> &middot; Peg Bond Center (151 Island Ave) &amp; Downtown Batavia, IL &middot; ~20 min from West Chicago &middot; free</p>
+      <p class="desc">Batavia MainStreet's downtown trick-or-treating and spooky fun. In recent years that has meant a parade stepping off around 10 AM at Houston St and Island Ave, then trick-or-treating at 60+ businesses, costume contests (pets too), and family activities. The full 2026 schedule isn't published yet.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Downtown</span>
+      </div>
+      <p class="source">Source: Batavia MainStreet flyer</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Pumpkin Palooza (DuPage Children's Museum)</h3>
+      <p class="meta"><span class="time">9 AM&ndash;2 PM</span> &middot; DuPage Children's Museum, Naperville &middot; ~35 min from West Chicago &middot; museum admission</p>
+      <p class="desc">Non-scary STEAM Halloween fun: build a "Franken buddy" from recycled toys, make wearable art, brew slime, and squish pumpkin guts. Come in costume.</p>
+      <div class="tags">
+        <span class="tag">Non-scary</span>
+        <span class="tag">Indoor</span>
+        <span class="tag">Hands-on</span>
+      </div>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fairs-festivals/fall-festivals-in-chicago" target="_blank" rel="noopener">Source: Mommy Poppins 2026 fall festivals guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">24</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Hinsdale Family Fall Fest</h3>
+      <p class="meta"><span class="time">11 AM&ndash;2 PM</span> &middot; Hinsdale Middle School, 100 S. Garfield Ave, Hinsdale &middot; ~30 min from West Chicago</p>
+      <p class="desc">Inflatables, food trucks, crafts, and entertainment, plus downtown trick-or-treating. The first 500 kids get a pumpkin; costume-contest check-in is 11:30 AM&ndash;1 PM.</p>
+      <div class="tags">
+        <span class="tag">Costume contest</span>
+        <span class="tag">Free pumpkins</span>
+        <span class="tag">Trick-or-treat</span>
+      </div>
+      <p class="source"><a href="https://www.thehinsdalean.com/story/2026/09/24/pulse/fallapalooza/11384.html" target="_blank" rel="noopener">Source: The Hinsdalean 2026 fall guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Mon</div>
+      <div class="num">26</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Howl</h3>
+      <p class="meta"><span class="time">4:00 &ndash; 7:00 PM</span> &middot; Fox Lake Police Department, 301 S. Rte. 59, Fox Lake, IL &middot; ~1 hr 15 min from West Chicago &middot; free</p>
+      <p class="desc">Fox Lake PD's family Halloween open house &mdash; bounce house, hay ride, jail cell tours, meet K9 Hank, a temporary tattoo station, balloon animals, a DJ with games, and trick-or-treating. Costumes encouraged, for kids of all ages.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Police open house</span>
+        <span class="tag">K9 demo</span>
+      </div>
+      <p class="note">This is a longer drive than most of the list &mdash; worth it mainly if you're already up in the Fox Lake area, or looking for something a bit different (jail cell tours are a fun novelty for kids).</p>
+      <p class="source">Source: Fox Lake Police Department flyer</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Late</div>
+      <div class="num">Oct</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Family Night Trick-or-Treating</h3>
+      <p class="meta"><span class="time">5:30 &ndash; 7:30 PM</span> &middot; Cantigny Park, 1S151 Winfield Rd, Wheaton, IL</p>
+      <p class="desc">Walking tour through the park with candy stations along the way (including teal pumpkins) and entertainment along the path. Beer garden open for food and drinks.</p>
+      <div class="tags">
+        <span class="tag">Walking tour</span>
+        <span class="tag">Teal pumpkin</span>
+      </div>
+      <p class="note">Cantigny's page still showed last year's Friday date at time of writing &mdash; worth double-checking the exact 2026 date closer to October.</p>
+      <p class="source"><a href="https://cantigny.org/event/trick-or-treat/" target="_blank" rel="noopener">Source: cantigny.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">30</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Westmont Halloween Fun Fair</h3>
+      <p class="meta"><span class="time">5&ndash;7 PM</span> &middot; Westmont Community Center &middot; ~30 min from West Chicago &middot; free</p>
+      <p class="desc">Indoor trick-or-treating at the community center, a magician, spooky crafts, games, and a photo spot.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Indoor trick-or-treat</span>
+      </div>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fairs-festivals/fall-festivals-in-chicago" target="_blank" rel="noopener">Source: Mommy Poppins 2026 fall festivals guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Fri</div>
+      <div class="num">30</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Lanterns and Legends</h3>
+      <p class="meta"><span class="time">5&ndash;8 PM</span> &middot; Fullersburg Woods, 3800 York Rd, Oak Brook &middot; ~35 min from West Chicago &middot; $15 per pumpkin</p>
+      <p class="desc">Carve a pumpkin and make a candle while hearing the jack-o'-lantern legend, then follow clues on lantern-lit trails.</p>
+      <div class="tags">
+        <span class="tag">Pumpkin carving</span>
+        <span class="tag">Evening</span>
+      </div>
+      <p class="source"><a href="https://www.thehinsdalean.com/story/2026/09/24/pulse/fallapalooza/11384.html" target="_blank" rel="noopener">Source: The Hinsdalean 2026 fall guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">31</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Downtown Wheaton Trick-or-Treating</h3>
+      <p class="meta">Downtown Wheaton &middot; ~15 min from West Chicago &middot; free</p>
+      <p class="desc">60+ downtown businesses hand out candy, plus an I-Spy Halloween scavenger hunt. It's the Downtown Wheaton Association's biggest event.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Downtown</span>
+        <span class="tag">60+ businesses</span>
+      </div>
+      <p class="note">This year it lands on Halloween itself (Oct 31) instead of the Saturday before. The time isn't posted yet; it was 10 AM&ndash;1 PM in 2024.</p>
+      <p class="source"><a href="https://www.visitdowntownwheaton.org/friends" target="_blank" rel="noopener">Source: Downtown Wheaton Association 2026 event list</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">31</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trick-or-Treat at Danada</h3>
+      <p class="meta"><span class="time">Noon&ndash;4 PM</span> &middot; Danada Equestrian Center, 3S507 Naperville Rd, Wheaton &middot; ~20 min from West Chicago</p>
+      <p class="desc">Trick-or-treat at the barn, where costumed horses hand out candy and you vote for the best-dressed one. Tractor-drawn wagon rides are $5 per person.</p>
+      <div class="tags">
+        <span class="tag">Horses in costume</span>
+        <span class="tag">Wagon rides</span>
+      </div>
+      <p class="source"><a href="https://www.thehinsdalean.com/story/2026/09/24/pulse/fallapalooza/11384.html" target="_blank" rel="noopener">Source: The Hinsdalean 2026 fall guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">31</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Village of Round Lake Trick or Treat 2026</h3>
+      <p class="meta"><span class="time">1:00 &ndash; 5:00 PM</span> &middot; Village of Round Lake, IL</p>
+      <p class="desc">Official village-wide trick-or-treating hours for Halloween.</p>
+      <div class="tags">
+        <span class="tag">Halloween day</span>
+      </div>
+      <p class="source">Source: Village of Round Lake flyer</p>
+    </div>
+  </div>
+
+  <div class="month-label">Farther afield (up to ~2 hrs)</div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sep&ndash;</div>
+      <div class="num">Oct 31</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Apple &amp; Pumpkin Orchard</h3>
+      <p class="meta">All Seasons Orchard, 14510 IL-176, Woodstock, IL &middot; ~1 hr from West Chicago &middot; free grounds &amp; parking, Barnyard admission from ~$9, apple picking ~$12</p>
+      <p class="desc">15,000+ apple trees, a 10-acre corn maze (with easy and hard routes, past Mario Bros. and Caitlin Clark&ndash;style themed designs some years), a petting zoo, mini zip line park, pony rides, giant swings, and an apple cannon. Restaurant, bakery, and cider mill on site.</p>
+      <div class="tags">
+        <span class="tag">Free grounds</span>
+        <span class="tag">4.8&#9733; reviews</span>
+        <span class="tag">Large corn maze</span>
+      </div>
+      <p class="note">Worth it: genuinely one of the best-reviewed in the region (4.8/5 average) &mdash; reviewers consistently say it feels spacious rather than crowded even on busy days, and call it a better value than the more commercial spots closer to the city.</p>
+      <p class="source"><a href="https://www.illinoishauntedhouses.com/halloween/all-seasons-orchard-il.html" target="_blank" rel="noopener">Source: allseasonsorchard.com</a> &middot; <a href="https://www.tripadvisor.com/Attraction_Review-g36910-d2687980-Reviews-All_Seasons_Orchard-Woodstock_Illinois.html" target="_blank" rel="noopener">Tripadvisor reviews</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Aug&ndash;</div>
+      <div class="num">Oct</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>U-Pick Apples &amp; Corn Maze</h3>
+      <p class="meta">County Line Orchard, 200 S County Line Rd, Hobart, IN &middot; ~1.5&ndash;2 hrs from West Chicago &middot; free for kids 2 &amp; under, apples charged by weight, maze/train extra</p>
+      <p class="desc">A big, well-known destination on the Indiana side &mdash; antique tractor rides, an animal barnyard, a 10-acre corn maze (some years themed around sports moments, like a Caitlin Clark tribute maze), a "moo choo" train, and a bakery known for its apple cider doughnuts.</p>
+      <div class="tags">
+        <span class="tag">Large-scale</span>
+        <span class="tag">Corn maze</span>
+        <span class="tag">Bakery</span>
+      </div>
+      <p class="note">Worth it: reviews are genuinely mixed the bigger it's gotten &mdash; longtime visitors call it a beloved yearly tradition with great cider and doughnuts, but recent reviews mention it feeling more crowded and commercial than it used to, with some inconsistency in food availability late in the day. A weekday morning visit gets the best version of it.</p>
+      <p class="source"><a href="https://www.yelp.com/biz/county-line-orchard-hobart-2" target="_blank" rel="noopener">Source: Yelp reviews</a> &middot; <a href="https://www.tripadvisor.com/Attraction_Review-g37195-d2323860-Reviews-County_Line_Orchard-Hobart_Indiana.html" target="_blank" rel="noopener">Tripadvisor reviews</a></p>
+    </div>
+  </div>
+
+  <footer>
+    This is a sampling of the bigger farm-style destinations in reach, not every pumpkin patch in the area &mdash; most small local parks and garden centers run their own mini patches too. Hours and ticket prices vary by day (weekends usually cost more and get busier), so it's worth checking each farm's site before heading out. "Worth it" notes are pulled from patterns across multiple public reviews, not a personal endorsement &mdash; individual experiences vary a lot by day and crowd level.
+  </footer>
+
+  </div>
+
+
+  <!-- ============ TAB 3: REGIONAL ============ -->
+  <div id="regional" class="tabpanel">
+
+  <p class="region-note">Bigger festivals and destination events across roughly a 1.5-hour drive &mdash; Naperville, the Fox Valley, Lemont, Western Springs, and beyond. Some dates are confirmed straight from the venue for 2026; others come from a regional roundup published for 2025 and are flagged since 2026 hasn't been separately confirmed for every town.</p>
+
+  <div class="month-label">Runs most of the season</div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sep 25&ndash;</div>
+      <div class="num">Nov 1</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Enchanted Adventure</h3>
+      <p class="meta">Thu&ndash;Sun nights &middot; The Forge: Lemont Quarries, 227 Heritage Quarries Dr, Lemont, IL &middot; ~50 min from West Chicago</p>
+      <p class="desc">A half-mile illuminated walking trail through thousands of carved pumpkins across three themed worlds (Monsters, Magic, Mischief), including a 16-foot pumpkin Kraken and a Pumpkin Stonehenge. Seasonal food and drink; kid activity add-ons sold separately. Ticketed.</p>
+      <div class="tags">
+        <span class="tag">Ticketed</span>
+        <span class="tag">Evening</span>
+      </div>
+      <p class="source"><a href="https://forgeparks.com/enchanted-adventure/" target="_blank" rel="noopener">Source: forgeparks.com</a></p>
+    </div>
+  </div>
+
+    <div class="event">
+    <div class="date-block">
+      <div class="dow">Wed&ndash;Sun</div>
+      <div class="num">7&ndash;25</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Night of 1,000 Jack-o'-Lanterns</h3>
+      <p class="meta"><span class="time">Evenings, Wed&ndash;Sun</span> &middot; Chicago Botanic Garden, Glencoe &middot; ~50 min from West Chicago &middot; ticketed</p>
+      <p class="desc">More than 1,000 hand-carved jack-o'-lanterns light the paths, with costumed characters, haunted model trains, and live pumpkin carving.</p>
+      <div class="tags">
+        <span class="tag">Ticketed</span>
+        <span class="tag">Evening</span>
+        <span class="tag">Big draw</span>
+      </div>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fairs-festivals/fall-festivals-in-chicago" target="_blank" rel="noopener">Source: Mommy Poppins 2026 fall festivals guide</a></p>
+    </div>
+  </div>
+
+  <div class="month-label">October</div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">17</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Spooky Zoo at Lincoln Park Zoo</h3>
+      <p class="meta"><span class="time">From 10 AM until the candy runs out</span> &middot; Lincoln Park Zoo, Chicago &middot; ~1 hr from West Chicago &middot; free zoo</p>
+      <p class="desc">Trick-or-treat around the zoo, plus free carousel rides and fall rides and attractions.</p>
+      <div class="tags">
+        <span class="tag">Free zoo</span>
+        <span class="tag">Trick-or-treat</span>
+      </div>
+      <p class="source"><a href="https://mommypoppins.com/chicago-kids/fall-activities/top-halloween-events-near-chicago-for-kids-and-families" target="_blank" rel="noopener">Source: Mommy Poppins 2026 Halloween guide</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat&ndash;Sun</div>
+      <div class="num">24&ndash;25</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Family Spooktacular</h3>
+      <p class="meta"><span class="time">Sat 10 AM&ndash;2 PM &middot; Sun 12&ndash;4 PM</span> &middot; Naper Settlement, 523 S Webster St, Naperville &middot; ~40 min from West Chicago &middot; $15 adults, $10 kids 4&ndash;12, free under 4</p>
+      <p class="desc">Trick-or-treat across the 13-acre museum campus with candy stops at the historic homes, then a show by The Little Mermen &amp; Princess Pals (Disney tribute band). Themed inflatables including a fright-free haunted house, and a "Ghoul School" slime station. Built for ages 3&ndash;12.</p>
+      <div class="tags">
+        <span class="tag">Ticketed</span>
+        <span class="tag">Disney tribute band</span>
+        <span class="tag">Not-so-scary</span>
+      </div>
+      <p class="source"><a href="https://www.positivelynaperville.com/2026/09/23/naper-settlement-presents-seasonal-events-and-programs-during-october-2026/161288" target="_blank" rel="noopener">Source: Positively Naperville (Naper Settlement Oct 2026 schedule)</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sun</div>
+      <div class="num">25</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Happening</h3>
+      <p class="meta"><span class="time">1&ndash;4 PM</span> &middot; Riverwalk Grand Pavilion, Naperville &middot; ~40 min from West Chicago &middot; free</p>
+      <p class="desc">Naperville Park District's free Halloween fest for kids 10 and under: show off costumes, Halloween activities, candy, and prizes. Costumes must follow the park district's guidelines.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Ages 10 &amp; under</span>
+      </div>
+      <p class="source"><a href="https://www.positivelynaperville.com/2026/09/22/naperville-park-district-plan-family-friendly-halloween-events-this-autumn/161273" target="_blank" rel="noopener">Source: Naperville Park District via Positively Naperville</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Late</div>
+      <div class="num">Oct</div>
+      <div class="mon">&nbsp;</div>
+    </div>
+    <div>
+      <h3>Lions Club Costume Contest &amp; Downtown Trick-or-Treat</h3>
+      <p class="meta"><span class="time">Contest at noon, Fishel Park &middot; trick-or-treat 1:00&ndash;3:00 PM</span> &middot; Downtown Downers Grove, IL &middot; ~30 min from West Chicago</p>
+      <p class="desc">Costume contest at Fishel Park at noon, then trick-or-treating at participating downtown businesses.</p>
+      <div class="tags">
+        <span class="tag">Costume contest</span>
+        <span class="tag">Downtown</span>
+      </div>
+      <p class="note">Date from a 2025 regional roundup &mdash; confirm the 2026 date closer to October.</p>
+      <p class="source">Source: Daily Herald suburb trick-or-treat roundup</p>
+    </div>
+  </div>
+
+
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Thu</div>
+      <div class="num">29</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Downtown Geneva Trick-or-Treating</h3>
+      <p class="meta"><span class="time">2&ndash;5 PM</span> &middot; Downtown Geneva &middot; ~35 min from West Chicago &middot; free</p>
+      <p class="desc">Kids in costume trick-or-treat at participating downtown shops and restaurants (look for the sign in the window).</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Downtown</span>
+      </div>
+      <p class="note">Geneva holds this every year on the Thursday before Halloween, which is Oct 29 this year. The 2026 date itself isn't posted yet.</p>
+      <p class="source"><a href="https://www.geneva.il.us/161/Special-Events-Promotions" target="_blank" rel="noopener">Source: City of Geneva</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">31</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trick-or-Treat at Wilder Park</h3>
+      <p class="meta"><span class="time">2:00 &ndash; 4:00 PM</span> &middot; Wilder Park &amp; Promenade, Aurora, IL &middot; ~30 min from West Chicago</p>
+      <p class="desc">City of Aurora's park-based trick-or-treating, ahead of citywide trick-or-treat hours that evening.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+      </div>
+      <p class="note">The City of Aurora lists this for Oct 31; the 2&ndash;4 PM time is from last year, so confirm closer to the date.</p>
+      <p class="source"><a href="https://www.aurora.il.us/Events-directory/Trick-or-Treat-at-Wilder-Park" target="_blank" rel="noopener">Source: City of Aurora</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">31</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween Bash &amp; Chili Cook-Off</h3>
+      <p class="meta"><span class="time">10:00 AM &ndash; 2:00 PM</span> &middot; Spring Rock Park, 4400 Central Ave, Western Springs, IL &middot; ~50 min from West Chicago</p>
+      <p class="desc">Free festive afternoon before trick-or-treating: hayrides, a corn maze, a balloon artist, inflatables, live DJ music, a costume contest, and a chili cook-off.</p>
+      <div class="tags">
+        <span class="tag">Free</span>
+        <span class="tag">Costume contest</span>
+        <span class="tag">Chili cook-off</span>
+      </div>
+      <p class="source"><a href="https://www.wsparks.org/upcoming-events" target="_blank" rel="noopener">Source: wsparks.org</a></p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">31</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Halloween on the Square</h3>
+      <p class="meta"><span class="time">Trick-or-treat 4:00&ndash;5:00 PM &middot; costume contest 4:45 PM</span> &middot; Woodstock Square, Woodstock, IL &middot; ~1 hr from West Chicago</p>
+      <p class="desc">Trick-or-treating around the historic square followed by a costume contest at the bandstand.</p>
+      <div class="tags">
+        <span class="tag">Costume contest</span>
+        <span class="tag">Historic square</span>
+      </div>
+      <p class="note">Date from a 2025 regional roundup &mdash; confirm the 2026 date closer to October.</p>
+      <p class="source">Source: Daily Herald suburb trick-or-treat roundup</p>
+    </div>
+  </div>
+
+  <div class="event">
+    <div class="date-block">
+      <div class="dow">Sat</div>
+      <div class="num">31</div>
+      <div class="mon">Oct</div>
+    </div>
+    <div>
+      <h3>Trick-or-Treat Around the Square</h3>
+      <p class="meta"><span class="time">10:00 AM &ndash; 2:00 PM</span> &middot; Downtown Huntley, IL &middot; ~1 hr from West Chicago</p>
+      <p class="desc">Daytime trick-or-treating around Huntley's historic downtown square.</p>
+      <div class="tags">
+        <span class="tag">Downtown</span>
+        <span class="tag">Daytime</span>
+      </div>
+      <p class="note">Date from a 2025 regional roundup &mdash; confirm the 2026 date closer to October.</p>
+      <p class="source">Source: Daily Herald suburb trick-or-treat roundup</p>
+    </div>
+  </div>
+
+  <footer>
+    This tab is a sampling of the bigger, farther-flung events rather than an exhaustive list &mdash; there are dozens more trunk-or-treats at individual churches, schools, and small parks scattered across the region.
+  </footer>
+
+  </div>
+
+  <!-- ============ TAB 3: HOURS ============ -->
+  <div id="hours" class="tabpanel">
+
+  <div class="callout">
+    <strong>West Chicago and Geneva are confirmed for 2026</strong> &mdash; straight from each city's own event calendar. I re-checked all 10 towns on Sept 27 and the other 8 haven't posted 2026 hours yet (most wait until early-to-mid October). What's shown for them is the most recently published schedule, tagged so it isn't mistaken for a 2026 confirmation. 2025's Halloween fell on a Friday; 2026 falls on a Saturday, so it's worth a quick check of your town's site once it's posted.
+  </div>
+
+  <div class="town-grid" id="townGrid">
+
+    <div class="town"><div class="town-name">West Chicago</div><div class="town-hours confirmed">3&ndash;7 PM <span class="yr-tag confirmed-tag">✓ 2026 confirmed</span></div>
+      <div class="town-note">Confirmed directly on the city's 2026 event calendar for Sat, Oct 31, 2026. Also: Downtown Trick-or-Treating &amp; Library Trunk-or-Treat, 1&ndash;3 PM Sat, Oct 24 (see Trunk-or-Treat tab).</div>
+      <p class="source">Source: <a href="https://westchicago.org/event/west-chicago-trick-or-treating-3/" target="_blank" rel="noopener">westchicago.org</a></p></div>
+
+    <div class="town"><div class="town-name">Wayne</div><div class="town-hours">3&ndash;7 PM <span class="yr-tag">2023</span></div>
+      <div class="town-note">Corrected from an earlier misread: Kane County's roundup lists Wayne with St. Charles, Batavia, and Geneva at 3&ndash;7 PM. This is the most recent Wayne listing I could find (2023).</div>
+      <p class="source">Source: <a href="https://kanecountyconnects.com/article/trickortreat-halloween-candy-holiday-kanecounty-kids-families-fun" target="_blank" rel="noopener">Kane County Connects</a></p></div>
+
+    <div class="town"><div class="town-name">Winfield</div><div class="town-hours">3&ndash;7 PM <span class="yr-tag">2025</span></div>
+      <div class="town-note">Same window in 2024 and 2025. Separate Downtown Trick-or-Treat (Chamber of Commerce), historically the Friday before Halloween, 4&ndash;6 PM.</div>
+      <p class="source">Source: <a href="https://www.villageofwinfield.com/Calendar.aspx?EID=4707" target="_blank" rel="noopener">villageofwinfield.com</a></p></div>
+
+    <div class="town"><div class="town-name">Carol Stream</div><div class="town-hours">3&ndash;7 PM <span class="yr-tag">2025</span></div>
+      <div class="town-note">Indoor trick-or-treat at Village Hall and the library also run that afternoon.</div>
+      <p class="source">Source: <a href="https://mykidlist.com/trick-or-treat-hours/" target="_blank" rel="noopener">MyKidList suburb roundup</a>, <a href="https://www.cslibrary.org/event/trick-or-treating-38069" target="_blank" rel="noopener">Carol Stream Public Library</a></p></div>
+
+    <div class="town"><div class="town-name">Wheaton</div><div class="town-hours">3:30&ndash;7:30 PM <span class="yr-tag">2025</span></div>
+      <div class="town-note">3:30&ndash;7:30 PM was the window in 2024 and 2025. Older years varied (2021 was 3&ndash;7 PM), so it's not guaranteed to repeat. Downtown Wheaton Trick-or-Treating is on Halloween itself this year (Sat, Oct 31) per the Downtown Wheaton Association (see Fall Fun tab).</div>
+      <p class="source">Source: <a href="https://www.wheaton.il.us/Calendar.aspx?EID=1015" target="_blank" rel="noopener">wheaton.il.us</a></p></div>
+
+    <div class="town"><div class="town-name">Glen Ellyn</div><div class="town-hours">3&ndash;7 PM <span class="yr-tag">2025</span></div>
+      <div class="town-note">Separate Halloween Parade &amp; downtown trick-or-treat runs Sat, Oct 24 (see Fall Fun tab).</div>
+      <p class="source">Source: <a href="https://mykidlist.com/trick-or-treat-hours/" target="_blank" rel="noopener">MyKidList suburb roundup</a></p></div>
+
+    <div class="town"><div class="town-name">Warrenville</div><div class="town-hours">3&ndash;7 PM <span class="yr-tag">2025</span></div>
+      <div class="town-note">Updated from an older 2&ndash;7 PM listing; the 2025 town roundup shows 3&ndash;7 PM.</div>
+      <p class="source">Source: <a href="https://wheaton.macaronikid.com/articles/650a03a17edc1448fe92b63e/halloween-happenings-around-wheaton-il" target="_blank" rel="noopener">Macaroni Kid Wheaton</a></p></div>
+
+    <div class="town"><div class="town-name">St. Charles</div><div class="town-hours">3&ndash;7 PM <span class="yr-tag">2025</span></div>
+      <div class="town-note">The city's page lists suggested hours of 3&ndash;7 PM on Oct 31 (no year shown, so check it for 2026).</div>
+      <p class="source">Source: <a href="https://www.stcharlesil.gov/News-Events/Halloween-Trick-or-Treating" target="_blank" rel="noopener">stcharlesil.gov</a></p></div>
+
+    <div class="town"><div class="town-name">Geneva</div><div class="town-hours confirmed">3&ndash;7 PM <span class="yr-tag confirmed-tag">✓ 2026 confirmed</span></div>
+      <div class="town-note">Confirmed on the city calendar for Sat, Oct 31, 2026. Downtown trick-or-treat is the Thursday before Halloween (Oct 29), 2&ndash;5 PM.</div>
+      <p class="source">Source: <a href="https://www.geneva.il.us/calendar.aspx?EID=4145" target="_blank" rel="noopener">geneva.il.us</a></p></div>
+
+    <div class="town"><div class="town-name">Batavia</div><div class="town-hours">3&ndash;7 PM <span class="yr-tag">2025</span></div>
+      <div class="town-note">Corrected: the city set 3&ndash;7 PM in 2022, 2023, 2024, and 2025. The earlier 4&ndash;7 PM came from an outdated listing. BatFest downtown is Sat, Oct 24 (see Fall Fun tab).</div>
+      <p class="source">Source: <a href="https://patch.com/illinois/batavia/trick-or-treating-batavia-2025-hours-revealed" target="_blank" rel="noopener">Patch (City of Batavia 2025 hours)</a></p></div>
+
+  </div>
+
+  <footer>
+    This is the 10 towns immediately around West Chicago rather than the full suburb-wide list. West Chicago's hours come straight from the city's own 2026 event calendar. Geneva is also confirmed from its city calendar. Every other town's hours are the latest published schedule (mostly 2025, Wayne 2023), not an official 2026 posting. Worth a quick check of the linked source in early-to-mid October once each town posts this year's schedule.
+  </footer>
+
+  </div>
+
+  <div class="footer-flourish">🎃&nbsp;&middot;&nbsp;🕸️&nbsp;&middot;&nbsp;🦇&nbsp;&middot;&nbsp;🕸️&nbsp;&middot;&nbsp;🎃</div>
+
+  </div>
+
+</div>
+
+<script>
+function showTab(btn, id){
+  document.querySelectorAll('.tabpanel').forEach(function(p){ p.classList.remove('active'); });
+  document.querySelectorAll('.tabbtn').forEach(function(b){ b.classList.remove('active'); });
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+
+function filterTowns(){
+  var q = document.getElementById('townSearch').value.toLowerCase();
+  var towns = document.querySelectorAll('.town');
+  towns.forEach(function(t){
+    var name = t.querySelector('.town-name').textContent.toLowerCase();
+    if(name.indexOf(q) !== -1){
+      t.classList.remove('hidden');
+    } else {
+      t.classList.add('hidden');
+    }
+  });
+}
+</script>
+
+</body>
+</html>
